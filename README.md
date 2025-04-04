@@ -6,7 +6,7 @@ A very handy framework that lets you write MoonBit in Unity. (MoonBit -> JS back
 
 Though still primitive, you can now begin exploring MoonBit in Unity.
 
-#### Get started
+# Get started
 Tested with Unity 6 (6000.0.38f1) and Moon's version as below.
 ```bash
 moon 0.1.20250402 (5cc5674 2025-04-02) ~/.moon/bin/moon
@@ -15,3 +15,5 @@ moonrun 0.1.20250402 (5cc5674 2025-04-02) ~/.moon/bin/moonrun
 ```
 
 Open `Assets/MoonBit/Samples/RotateCube.unity` and enter Play mode.
+
+**TEMP** Run `python3 build.py` to compile code, see `todos` in it.

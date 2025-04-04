@@ -10,9 +10,9 @@ function Option$Some$0$(param0) {
   this._0 = param0;
 }
 Option$Some$0$.prototype.$tag = 1;
-const username$hello$lib$$MoonBehavior$set_start = (self, f) => self.JsStart = f;
-const username$hello$lib$$MoonBehavior$set_update = (self, f) => self.JsUpdate = f;
-const username$hello$lib$$MoonBehavior$set_ondestroy = (self, f) => self.JsOnDestroy = f;
+const username$hello$bind$$MoonBehaviour$set_start = (self, f) => self.JsStart = f;
+const username$hello$bind$$MoonBehaviour$set_update = (self, f) => self.JsUpdate = f;
+const username$hello$bind$$MoonBehaviour$set_ondestroy = (self, f) => self.JsOnDestroy = f;
 function moonbitlang$core$builtin$$abort$0$(msg) {
   return $panic();
 }
@@ -91,29 +91,31 @@ function moonbitlang$core$builtin$$Default$default$4$() {
   return "";
 }
 function moonbitlang$core$builtin$$Default$default$6$() {
-  return { bindTo: moonbitlang$core$builtin$$Default$default$5$(), int_value: 0, string_value: moonbitlang$core$builtin$$Default$default$4$() };
+  return { bindTo: moonbitlang$core$builtin$$Default$default$5$(), speed: 0, string_value: moonbitlang$core$builtin$$Default$default$4$() };
 }
-function username$hello$lib$$MBTBehaivor$start(self) {
+function username$hello$rotate$$Rotate$start(self) {
   moonbitlang$core$builtin$$println$4$("Hello, world 233!");
 }
-function username$hello$lib$$MBTBehaivor$update(self) {
-  moonbitlang$core$builtin$$println$4$(`my value is ${moonbitlang$core$builtin$$Show$to_string$0$(self.int_value)}`);
+function username$hello$rotate$$Rotate$update(self) {
+  moonbitlang$core$builtin$$println$4$(`current speed is ${moonbitlang$core$builtin$$Show$to_string$0$(self.speed)}`);
 }
-function username$hello$lib$$MBTBehaivor$ondestroy(self) {}
-function username$hello$lib$$new() {
+function username$hello$rotate$$Rotate$ondestroy(self) {
+  moonbitlang$core$builtin$$println$4$("onDestroy...");
+}
+function username$hello$rotate$$new() {
   return moonbitlang$core$builtin$$Default$default$6$();
 }
-function username$hello$lib$$bind(bindTo) {
-  const self = username$hello$lib$$new();
+function username$hello$rotate$$bind(bindTo) {
+  const self = username$hello$rotate$$new();
   self.bindTo = new Option$Some$0$(bindTo);
-  username$hello$lib$$MoonBehavior$set_start(bindTo, () => {
-    username$hello$lib$$MBTBehaivor$start(self);
+  username$hello$bind$$MoonBehaviour$set_start(bindTo, () => {
+    username$hello$rotate$$Rotate$start(self);
   });
-  username$hello$lib$$MoonBehavior$set_update(bindTo, () => {
-    username$hello$lib$$MBTBehaivor$update(self);
+  username$hello$bind$$MoonBehaviour$set_update(bindTo, () => {
+    username$hello$rotate$$Rotate$update(self);
   });
-  username$hello$lib$$MoonBehavior$set_ondestroy(bindTo, () => {
-    username$hello$lib$$MBTBehaivor$ondestroy(self);
+  username$hello$bind$$MoonBehaviour$set_ondestroy(bindTo, () => {
+    username$hello$rotate$$Rotate$ondestroy(self);
   });
 }
-export { username$hello$lib$$bind as bind }
+export { username$hello$rotate$$bind as bind }
