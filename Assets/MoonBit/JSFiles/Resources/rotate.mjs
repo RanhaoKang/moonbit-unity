@@ -91,10 +91,10 @@ function moonbitlang$core$builtin$$Default$default$4$() {
   return "";
 }
 function moonbitlang$core$builtin$$Default$default$6$() {
-  return { bindTo: moonbitlang$core$builtin$$Default$default$5$(), speed: 0, string_value: moonbitlang$core$builtin$$Default$default$4$() };
+  return { bindTo: moonbitlang$core$builtin$$Default$default$5$(), speed: 0, string: moonbitlang$core$builtin$$Default$default$4$(), bool: false };
 }
 function username$hello$rotate$$Rotate$start(self) {
-  moonbitlang$core$builtin$$println$4$("Hello, world 233!");
+  moonbitlang$core$builtin$$println$4$("start");
 }
 function username$hello$rotate$$Rotate$update(self) {
   moonbitlang$core$builtin$$println$4$(`current speed is ${moonbitlang$core$builtin$$Show$to_string$0$(self.speed)}`);

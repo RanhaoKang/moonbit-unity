@@ -8,7 +8,12 @@ import(
 fn bind(@bind.MoonBehaviour) -> Unit
 
 // Types and methods
-type Rotate
+pub struct Rotate {
+  mut bindTo : @bind.MoonBehaviour?
+  speed : Int
+  string : String
+  bool : Bool
+}
 impl Default for Rotate
 
 // Type aliases
