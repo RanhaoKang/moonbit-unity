@@ -1,0 +1,27 @@
+{
+    // "pre-build": [
+    //     {
+    //         "input": "moon.pkg.json",
+    //         "output": "dummy",
+    //         "command": "python test.py $input"
+    //     }
+    // ],
+    // "post-build": [
+    //     {
+    //         "input": "moon.pkg.json",
+    //         "output": "dummy",
+    //         "command": "python test.py $input"
+    //     }
+    // ],
+    "import": [
+        "username/hello/bind"
+    ],
+    "link": {
+        "js": {
+            "format": "esm",
+            "exports": [
+                "bind"
+            ]
+        }
+    }
+}

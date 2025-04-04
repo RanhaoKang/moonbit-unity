@@ -1,0 +1,21 @@
+package "username/hello/bind"
+
+// Values
+fn set_ondestroy(MoonBehaviour, () -> Unit) -> Unit
+
+fn set_start(MoonBehaviour, () -> Unit) -> Unit
+
+fn set_update(MoonBehaviour, () -> Unit) -> Unit
+
+// Types and methods
+pub extern type MoonBehaviour
+impl MoonBehaviour {
+  set_ondestroy(Self, () -> Unit) -> Unit
+  set_start(Self, () -> Unit) -> Unit
+  set_update(Self, () -> Unit) -> Unit
+}
+
+// Type aliases
+
+// Traits
+

@@ -1,0 +1,17 @@
+package "username/hello/rotate"
+
+import(
+  "username/hello/bind"
+)
+
+// Values
+fn bind(@bind.MoonBehaviour) -> Unit
+
+// Types and methods
+type Rotate
+impl Default for Rotate
+
+// Type aliases
+
+// Traits
+
