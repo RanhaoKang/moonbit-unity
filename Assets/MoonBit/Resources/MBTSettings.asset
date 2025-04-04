@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_compilePaths:
   - Assets/MoonBit/Samples/moon.mod.json
-  m_targetPath: MoonBit/Resources/JSFiles
+  m_targetPath: MoonBit/JSFiles/Resources
   m_moonToolPath: ~/.moon/bin/moon.exe

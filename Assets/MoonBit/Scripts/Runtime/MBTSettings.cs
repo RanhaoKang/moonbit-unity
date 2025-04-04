@@ -79,7 +79,8 @@ namespace MoonBit
             Debug.LogWarning("无法获取Prefab的资源路径，可能不是项目中的Asset");
             return string.Empty;
         }
-        return Path.Combine(MBTSettings.instance.TargetPath, Path.GetFileNameWithoutExtension(assetPath) + ".mjs");
+        // todo: support multiple packages
+        return Path.GetFileNameWithoutExtension(assetPath) + ".mjs";
 #endif
         return string.Empty;
         }

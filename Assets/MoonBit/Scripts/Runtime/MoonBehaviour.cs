@@ -28,9 +28,11 @@ namespace MoonBit
             if (jsEnv == null)
             {
                 string root = Path.Combine(Application.dataPath, MBTSettings.instance.TargetPath);
-                jsEnv = new JsEnv(new FileSystemLoader(root), 9229);
+                jsEnv = new JsEnv(new DefaultLoader(root), 9229);
             }
-            var bind = jsEnv.ExecuteModule<ModuleInit>(MBTSettings.GetModuleName(m_module), "bind");
+            var moduleName = MBTSettings.GetModuleName(m_module);
+            Debug.Log($"Load module: {moduleName}");
+            var bind = jsEnv.ExecuteModule<ModuleInit>(moduleName, "bind");
 
             if (bind != null) bind(this);
 
@@ -64,39 +66,6 @@ namespace MoonBit
         {
             yield return new WaitForSeconds(1);
             UnityEngine.Debug.Log("coroutine done");
-        }
-    }
-
-    public class FileSystemLoader : ILoader
-    {
-        private string rootPath;
-
-        public FileSystemLoader(string root)
-        {
-            Debug.Log($"Init Loader at root: {root}");
-            this.rootPath = root;
-        }
-
-        public bool FileExists(string filepath)
-        {
-            string fullPath = Path.Combine(rootPath, filepath);
-            return File.Exists(fullPath);
-        }
-
-        public string ReadFile(string filepath, out string debugpath)
-        {
-            debugpath = Path.Combine(rootPath, filepath);
-
-            try
-            {
-                return File.ReadAllText(debugpath);
-            }
-            catch (System.Exception e)
-            {
-                Debug.LogError($"Failed to read file: {debugpath}, Error: {e.Message}");
-                debugpath = "";
-                return null;
-            }
         }
     }
 }
