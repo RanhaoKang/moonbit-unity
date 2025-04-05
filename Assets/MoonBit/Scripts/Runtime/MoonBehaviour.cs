@@ -13,8 +13,8 @@ namespace MoonBit
     public class MoonBehaviour : MonoBehaviour
     {
         [SerializeField]
-        private GameObject m_module;
-        public GameObject Module => m_module;
+        private TextAsset m_module;
+        public TextAsset Module => m_module;
 
         public Action JsStart;
         public Action JsUpdate;

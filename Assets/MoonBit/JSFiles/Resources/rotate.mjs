@@ -204,8 +204,8 @@ const username$hello$bind$$MoonBehaviour$get_serialized_json = (self) => {   let
 const moonbitlang$core$strconv$$range_err_str = "value out of range";
 const moonbitlang$core$strconv$$syntax_err_str = "invalid syntax";
 const moonbitlang$core$strconv$$min_19digit_int = $1000000000000000000L;
-const moonbitlang$core$strconv$$parse_scientific$46$exp_num$0$ = $0L;
-const moonbitlang$core$strconv$$parse_number$46$exp_number$1$ = $0L;
+const moonbitlang$core$strconv$$parse_scientific$46$exp_num$124$320 = $0L;
+const moonbitlang$core$strconv$$parse_number$46$exp_number$124$301 = $0L;
 const moonbitlang$core$strconv$$double_info = { mantissa_bits: 52, exponent_bits: 11, bias: -1023 };
 const moonbitlang$core$strconv$$powtab = [1, 3, 6, 9, 13, 16, 19, 23, 26, 29, 33, 36, 39, 43, 46, 49, 53, 56, 59];
 const moonbitlang$core$strconv$$left_shift_cheats = [{ _0: 0, _1: "" }, { _0: 1, _1: "5" }, { _0: 1, _1: "25" }, { _0: 1, _1: "125" }, { _0: 2, _1: "625" }, { _0: 2, _1: "3125" }, { _0: 2, _1: "15625" }, { _0: 3, _1: "78125" }, { _0: 3, _1: "390625" }, { _0: 3, _1: "1953125" }, { _0: 4, _1: "9765625" }, { _0: 4, _1: "48828125" }, { _0: 4, _1: "244140625" }, { _0: 4, _1: "1220703125" }, { _0: 5, _1: "6103515625" }, { _0: 5, _1: "30517578125" }, { _0: 5, _1: "152587890625" }, { _0: 6, _1: "762939453125" }, { _0: 6, _1: "3814697265625" }, { _0: 6, _1: "19073486328125" }, { _0: 7, _1: "95367431640625" }, { _0: 7, _1: "476837158203125" }, { _0: 7, _1: "2384185791015625" }, { _0: 7, _1: "11920928955078125" }, { _0: 8, _1: "59604644775390625" }, { _0: 8, _1: "298023223876953125" }, { _0: 8, _1: "1490116119384765625" }, { _0: 9, _1: "7450580596923828125" }, { _0: 9, _1: "37252902984619140625" }, { _0: 9, _1: "186264514923095703125" }, { _0: 10, _1: "931322574615478515625" }, { _0: 10, _1: "4656612873077392578125" }, { _0: 10, _1: "23283064365386962890625" }, { _0: 10, _1: "116415321826934814453125" }, { _0: 11, _1: "582076609134674072265625" }, { _0: 11, _1: "2910383045673370361328125" }, { _0: 11, _1: "14551915228366851806640625" }, { _0: 12, _1: "72759576141834259033203125" }, { _0: 12, _1: "363797880709171295166015625" }, { _0: 12, _1: "1818989403545856475830078125" }, { _0: 13, _1: "9094947017729282379150390625" }, { _0: 13, _1: "45474735088646411895751953125" }, { _0: 13, _1: "227373675443232059478759765625" }, { _0: 13, _1: "1136868377216160297393798828125" }, { _0: 14, _1: "5684341886080801486968994140625" }, { _0: 14, _1: "28421709430404007434844970703125" }, { _0: 14, _1: "142108547152020037174224853515625" }, { _0: 15, _1: "710542735760100185871124267578125" }, { _0: 15, _1: "3552713678800500929355621337890625" }, { _0: 15, _1: "17763568394002504646778106689453125" }, { _0: 16, _1: "88817841970012523233890533447265625" }, { _0: 16, _1: "444089209850062616169452667236328125" }, { _0: 16, _1: "2220446049250313080847263336181640625" }, { _0: 16, _1: "11102230246251565404236316680908203125" }, { _0: 17, _1: "55511151231257827021181583404541015625" }, { _0: 17, _1: "277555756156289135105907917022705078125" }, { _0: 17, _1: "1387778780781445675529539585113525390625" }, { _0: 18, _1: "6938893903907228377647697925567626953125" }, { _0: 18, _1: "34694469519536141888238489627838134765625" }, { _0: 18, _1: "173472347597680709441192448139190673828125" }, { _0: 19, _1: "867361737988403547205962240695953369140625" }];
@@ -219,36 +219,36 @@ const moonbitlang$core$json$$non_ascii_whitespace = moonbitlang$core$json$$CharC
 const moonbitlang$core$double$$neg_infinity = moonbitlang$core$int64$$Int64$reinterpret_as_double($_4503599627370496L);
 const moonbitlang$core$double$$not_a_number = moonbitlang$core$int64$$Int64$reinterpret_as_double($9221120237041090561L);
 const moonbitlang$core$double$$infinity = moonbitlang$core$int64$$Int64$reinterpret_as_double($9218868437227405312L);
-const moonbitlang$core$strconv$$max_mantissa_fast_path = moonbitlang$core$builtin$$Shl$op_shl$2$($2L, 52);
+const moonbitlang$core$strconv$$max_mantissa_fast_path = moonbitlang$core$builtin$$Shl$op_shl$0$($2L, 52);
+function moonbitlang$core$builtin$$abort$1$(msg) {
+  return $panic();
+}
+function moonbitlang$core$builtin$$abort$2$(msg) {
+  $panic();
+}
 function moonbitlang$core$builtin$$abort$3$(msg) {
   return $panic();
 }
 function moonbitlang$core$builtin$$abort$4$(msg) {
-  $panic();
+  return $panic();
 }
 function moonbitlang$core$builtin$$abort$5$(msg) {
   return $panic();
 }
-function moonbitlang$core$builtin$$abort$6$(msg) {
-  return $panic();
+function moonbitlang$core$builtin$$op_ge$0$(self_, other) {
+  return moonbitlang$core$builtin$$Compare$compare$0$(self_, other) >= 0;
 }
-function moonbitlang$core$builtin$$abort$7$(msg) {
-  return $panic();
+function moonbitlang$core$builtin$$op_le$0$(self_, other) {
+  return moonbitlang$core$builtin$$Compare$compare$0$(self_, other) <= 0;
 }
-function moonbitlang$core$builtin$$op_ge$2$(self_, other) {
-  return moonbitlang$core$builtin$$Compare$compare$2$(self_, other) >= 0;
+function moonbitlang$core$builtin$$op_le$6$(self_, other) {
+  return moonbitlang$core$builtin$$Compare$compare$6$(self_, other) <= 0;
 }
-function moonbitlang$core$builtin$$op_le$2$(self_, other) {
-  return moonbitlang$core$builtin$$Compare$compare$2$(self_, other) <= 0;
+function moonbitlang$core$builtin$$op_lt$0$(self_, other) {
+  return moonbitlang$core$builtin$$Compare$compare$0$(self_, other) < 0;
 }
-function moonbitlang$core$builtin$$op_le$8$(self_, other) {
-  return moonbitlang$core$builtin$$Compare$compare$8$(self_, other) <= 0;
-}
-function moonbitlang$core$builtin$$op_lt$2$(self_, other) {
-  return moonbitlang$core$builtin$$Compare$compare$2$(self_, other) < 0;
-}
-function moonbitlang$core$builtin$$op_lt$8$(self_, other) {
-  return moonbitlang$core$builtin$$Compare$compare$8$(self_, other) < 0;
+function moonbitlang$core$builtin$$op_lt$6$(self_, other) {
+  return moonbitlang$core$builtin$$Compare$compare$6$(self_, other) < 0;
 }
 function moonbitlang$core$builtin$$StringBuilder$new(size_hint) {
   return { val: "" };
@@ -259,15 +259,15 @@ function moonbitlang$core$builtin$$StringBuilder$new$46$size_hint$46$default() {
 function moonbitlang$core$builtin$$StringBuilder$to_string(self) {
   return self.val;
 }
-function moonbitlang$core$builtin$$Logger$write_char$9$(self, ch) {
+function moonbitlang$core$builtin$$Logger$write_char$7$(self, ch) {
   const _bind = self;
   _bind.val = `${_bind.val}${String.fromCodePoint(ch)}`;
 }
-function moonbitlang$core$builtin$$op_gt$8$(self_, other) {
-  return moonbitlang$core$builtin$$Compare$compare$8$(self_, other) > 0;
+function moonbitlang$core$builtin$$op_gt$6$(self_, other) {
+  return moonbitlang$core$builtin$$Compare$compare$6$(self_, other) > 0;
 }
-function moonbitlang$core$builtin$$op_gt$2$(self_, other) {
-  return moonbitlang$core$builtin$$Compare$compare$2$(self_, other) > 0;
+function moonbitlang$core$builtin$$op_gt$0$(self_, other) {
+  return moonbitlang$core$builtin$$Compare$compare$0$(self_, other) > 0;
 }
 function moonbitlang$core$builtin$$is_leading_surrogate(c) {
   return 55296 <= c && c <= 56319;
@@ -285,6 +285,42 @@ function moonbitlang$core$string$$String$unsafe_char_at(self, index) {
     return c1;
   }
 }
+function moonbitlang$core$array$$Array$op_get$8$(self, index) {
+  const len = self.length;
+  if (index >= 0 && index < len) {
+    $bound_check(self, index);
+    return self[index];
+  } else {
+    return $panic();
+  }
+}
+function moonbitlang$core$array$$Array$op_get$9$(self, index) {
+  const len = self.length;
+  if (index >= 0 && index < len) {
+    $bound_check(self, index);
+    return self[index];
+  } else {
+    return $panic();
+  }
+}
+function moonbitlang$core$array$$Array$op_get$4$(self, index) {
+  const len = self.length;
+  if (index >= 0 && index < len) {
+    $bound_check(self, index);
+    return self[index];
+  } else {
+    return $panic();
+  }
+}
+function moonbitlang$core$array$$Array$op_get$0$(self, index) {
+  const len = self.length;
+  if (index >= 0 && index < len) {
+    $bound_check(self, index);
+    return self[index];
+  } else {
+    return $panic();
+  }
+}
 function moonbitlang$core$array$$Array$op_get$10$(self, index) {
   const len = self.length;
   if (index >= 0 && index < len) {
@@ -294,48 +330,12 @@ function moonbitlang$core$array$$Array$op_get$10$(self, index) {
     return $panic();
   }
 }
-function moonbitlang$core$array$$Array$op_get$11$(self, index) {
-  const len = self.length;
-  if (index >= 0 && index < len) {
-    $bound_check(self, index);
-    return self[index];
-  } else {
-    return $panic();
-  }
-}
-function moonbitlang$core$array$$Array$op_get$2$(self, index) {
-  const len = self.length;
-  if (index >= 0 && index < len) {
-    $bound_check(self, index);
-    return self[index];
-  } else {
-    return $panic();
-  }
-}
-function moonbitlang$core$array$$Array$op_get$6$(self, index) {
-  const len = self.length;
-  if (index >= 0 && index < len) {
-    $bound_check(self, index);
-    return self[index];
-  } else {
-    return $panic();
-  }
-}
-function moonbitlang$core$array$$Array$op_get$12$(self, index) {
-  const len = self.length;
-  if (index >= 0 && index < len) {
-    $bound_check(self, index);
-    return self[index];
-  } else {
-    return $panic();
-  }
-}
-function moonbitlang$core$builtin$$Logger$write_string$9$(self, str) {
+function moonbitlang$core$builtin$$Logger$write_string$7$(self, str) {
   const _bind = self;
   _bind.val = `${_bind.val}${str}`;
 }
-function moonbitlang$core$builtin$$Hasher$combine$13$(self, value) {
-  moonbitlang$core$builtin$$Hash$hash_combine$13$(value, self);
+function moonbitlang$core$builtin$$Hasher$combine$11$(self, value) {
+  moonbitlang$core$builtin$$Hash$hash_combine$11$(value, self);
 }
 function moonbitlang$core$builtin$$Hasher$avalanche(self) {
   let acc = self.acc;
@@ -355,9 +355,9 @@ function moonbitlang$core$builtin$$Hasher$new(seed) {
 function moonbitlang$core$builtin$$Hasher$new$46$seed$46$default() {
   return 0;
 }
-function moonbitlang$core$builtin$$Hash$hash$14$(self) {
+function moonbitlang$core$builtin$$Hash$hash$12$(self) {
   const _self = moonbitlang$core$builtin$$Hasher$new(moonbitlang$core$builtin$$Hasher$new$46$seed$46$default());
-  moonbitlang$core$builtin$$Hasher$combine$13$(_self, self);
+  moonbitlang$core$builtin$$Hasher$combine$11$(_self, self);
   return moonbitlang$core$builtin$$Hasher$finalize(_self);
 }
 function moonbitlang$core$builtin$$MyInt64$from_int(value) {
@@ -372,7 +372,7 @@ function moonbitlang$core$builtin$$MyInt64$to_int(self) {
 function moonbitlang$core$int64$$Int64$to_int(self) {
   return moonbitlang$core$builtin$$MyInt64$to_int(self);
 }
-function moonbitlang$core$builtin$$Div$op_div$15$(self, other) {
+function moonbitlang$core$builtin$$Div$op_div$13$(self, other) {
   const exports = moonbitlang$core$builtin$$get_int64_wasm_helper();
   const _ahi = self.hi;
   const _alo = self.lo;
@@ -384,8 +384,8 @@ function moonbitlang$core$builtin$$Div$op_div$15$(self, other) {
   const hi = _func$2();
   return { hi: hi, lo: lo };
 }
-function moonbitlang$core$builtin$$Div$op_div$8$(self, other) {
-  return moonbitlang$core$builtin$$Div$op_div$15$(self, other);
+function moonbitlang$core$builtin$$Div$op_div$6$(self, other) {
+  return moonbitlang$core$builtin$$Div$op_div$13$(self, other);
 }
 function moonbitlang$core$builtin$$MyInt64$add_hi_lo(self, bhi, blo) {
   const _ahi = self.hi;
@@ -398,23 +398,23 @@ function moonbitlang$core$builtin$$MyInt64$add_hi_lo(self, bhi, blo) {
   const hi = (_ahi + bhi | 0) + c | 0;
   return { hi: hi, lo: lo };
 }
-function moonbitlang$core$builtin$$Sub$op_sub$15$(self, other) {
+function moonbitlang$core$builtin$$Sub$op_sub$13$(self, other) {
   return other.lo === 0 ? { hi: self.hi - other.hi | 0, lo: self.lo } : moonbitlang$core$builtin$$MyInt64$add_hi_lo(self, ~other.hi, ~other.lo + 1 | 0);
 }
-function moonbitlang$core$builtin$$Sub$op_sub$8$(self, other) {
-  return moonbitlang$core$builtin$$Sub$op_sub$15$(self, other);
+function moonbitlang$core$builtin$$Sub$op_sub$6$(self, other) {
+  return moonbitlang$core$builtin$$Sub$op_sub$13$(self, other);
 }
-function moonbitlang$core$builtin$$output$46$abs$16$(n) {
+function moonbitlang$core$builtin$$output$46$abs$124$1955(n) {
   return n < 0 ? 0 - n | 0 : n;
 }
-function moonbitlang$core$builtin$$output$46$write_digits$17$(_env, num) {
+function moonbitlang$core$builtin$$output$46$write_digits$124$1957(_env, num) {
   const radix = _env._1;
   const logger = _env._0;
   const num2 = num / radix | 0;
   if (num2 !== 0) {
-    moonbitlang$core$builtin$$output$46$write_digits$17$(_env, num2);
+    moonbitlang$core$builtin$$output$46$write_digits$124$1957(_env, num2);
   }
-  const _tmp = moonbitlang$core$builtin$$output$46$abs$16$(num % radix | 0);
+  const _tmp = moonbitlang$core$builtin$$output$46$abs$124$1955(num % radix | 0);
   $bound_check("0123456789abcdefghijklmnopqrstuvwxyz", _tmp);
   logger.method_2(logger.self, "0123456789abcdefghijklmnopqrstuvwxyz".charCodeAt(_tmp));
 }
@@ -423,17 +423,17 @@ function moonbitlang$core$int$$Int$output(self, logger, radix) {
     logger.method_2(logger.self, 45);
   }
   const _env = { _0: logger, _1: radix };
-  moonbitlang$core$builtin$$output$46$write_digits$17$(_env, moonbitlang$core$builtin$$output$46$abs$16$(self));
+  moonbitlang$core$builtin$$output$46$write_digits$124$1957(_env, moonbitlang$core$builtin$$output$46$abs$124$1955(self));
 }
 function moonbitlang$core$int$$Int$output_size_hint(radix) {
-  return 2 <= radix && radix < 7 ? 36 : 8 <= radix && radix < 15 ? 18 : 16 <= radix && radix <= 36 ? 10 : moonbitlang$core$builtin$$abort$6$("radix must be between 2 and 36");
+  return 2 <= radix && radix < 7 ? 36 : 8 <= radix && radix < 15 ? 18 : 16 <= radix && radix <= 36 ? 10 : moonbitlang$core$builtin$$abort$4$("radix must be between 2 and 36");
 }
 function moonbitlang$core$int$$Int$to_string(self, radix) {
   const buf = moonbitlang$core$builtin$$StringBuilder$new(moonbitlang$core$int$$Int$output_size_hint(radix));
-  moonbitlang$core$int$$Int$output(self, { self: buf, method_0: moonbitlang$core$builtin$$Logger$write_string$9$, method_1: moonbitlang$core$builtin$$Logger$write_substring$9$, method_2: moonbitlang$core$builtin$$Logger$write_char$9$ }, radix);
+  moonbitlang$core$int$$Int$output(self, { self: buf, method_0: moonbitlang$core$builtin$$Logger$write_string$7$, method_1: moonbitlang$core$builtin$$Logger$write_substring$7$, method_2: moonbitlang$core$builtin$$Logger$write_char$7$ }, radix);
   return moonbitlang$core$builtin$$StringBuilder$to_string(buf);
 }
-function moonbitlang$core$builtin$$Show$to_string$6$(self) {
+function moonbitlang$core$builtin$$Show$to_string$4$(self) {
   return moonbitlang$core$int$$Int$to_string(self, 10);
 }
 function moonbitlang$core$uint64$$UInt64$to_int(self) {
@@ -451,10 +451,10 @@ function moonbitlang$core$builtin$$MyInt64$div_u(self, other) {
   const hi = _func$2();
   return { hi: hi, lo: lo };
 }
-function moonbitlang$core$builtin$$Div$op_div$2$(self, other) {
+function moonbitlang$core$builtin$$Div$op_div$0$(self, other) {
   return moonbitlang$core$builtin$$MyInt64$div_u(self, other);
 }
-function moonbitlang$core$builtin$$Default$default$18$() {
+function moonbitlang$core$builtin$$Default$default$14$() {
   return 0;
 }
 function moonbitlang$core$string$$String$substring(self, start, end) {
@@ -469,11 +469,11 @@ function moonbitlang$core$string$$String$substring(self, start, end) {
   }
   return start >= 0 && (start <= end$2 && end$2 <= len) ? self.substring(start, end$2) : $panic();
 }
-function moonbitlang$core$builtin$$Logger$write_substring$9$(self, str, start, len) {
+function moonbitlang$core$builtin$$Logger$write_substring$7$(self, str, start, len) {
   const _bind = self;
   _bind.val = `${_bind.val}${moonbitlang$core$string$$String$substring(str, start, start + len | 0)}`;
 }
-function moonbitlang$core$builtin$$Show$to_string$13$(self) {
+function moonbitlang$core$builtin$$Show$to_string$11$(self) {
   return self;
 }
 function moonbitlang$core$builtin$$calc_grow_threshold(capacity) {
@@ -494,7 +494,7 @@ function moonbitlang$core$builtin$$power_2_above(x, n) {
     continue;
   }
 }
-function moonbitlang$core$builtin$$Map$new$19$(capacity) {
+function moonbitlang$core$builtin$$Map$new$15$(capacity) {
   const capacity$2 = moonbitlang$core$builtin$$power_2_above(8, capacity);
   const _bind = capacity$2 - 1 | 0;
   const _bind$2 = moonbitlang$core$builtin$$calc_grow_threshold(capacity$2);
@@ -504,10 +504,10 @@ function moonbitlang$core$builtin$$Map$new$19$(capacity) {
   const _bind$6 = undefined;
   return { entries: _bind$3, list: _bind$4, size: 0, capacity: capacity$2, capacity_mask: _bind, growAt: _bind$2, head: _bind$5, tail: _bind$6 };
 }
-function moonbitlang$core$builtin$$Map$new$46$capacity$46$default$19$() {
+function moonbitlang$core$builtin$$Map$new$46$capacity$46$default$15$() {
   return 8;
 }
-function moonbitlang$core$builtin$$Map$add_entry_to_tail$19$(self, entry) {
+function moonbitlang$core$builtin$$Map$add_entry_to_tail$15$(self, entry) {
   const _bind = self.tail;
   if (_bind === undefined) {
     self.head = entry;
@@ -528,11 +528,11 @@ function moonbitlang$core$builtin$$Map$add_entry_to_tail$19$(self, entry) {
     return;
   }
 }
-function moonbitlang$core$builtin$$Map$set$19$(self, key, value) {
+function moonbitlang$core$builtin$$Map$set$15$(self, key, value) {
   if (self.size >= self.growAt) {
-    moonbitlang$core$builtin$$Map$grow$19$(self);
+    moonbitlang$core$builtin$$Map$grow$15$(self);
   }
-  const hash = moonbitlang$core$builtin$$Hash$hash$14$(key);
+  const hash = moonbitlang$core$builtin$$Hash$hash$12$(key);
   const insert_entry = { idx: -1, psl: 0, hash: hash, key: key, value: value };
   const list_node = { prev: undefined, next: undefined };
   let _tmp = 0;
@@ -555,7 +555,7 @@ function moonbitlang$core$builtin$$Map$set$19$(self, key, value) {
       $bound_check(_tmp$7, _param$2);
       _tmp$7[_param$2] = _param$4;
       _param$3.idx = _param$2;
-      moonbitlang$core$builtin$$Map$add_entry_to_tail$19$(self, insert_entry);
+      moonbitlang$core$builtin$$Map$add_entry_to_tail$15$(self, insert_entry);
       self.size = self.size + 1 | 0;
       return;
     } else {
@@ -596,7 +596,7 @@ function moonbitlang$core$builtin$$Map$set$19$(self, key, value) {
     }
   }
 }
-function moonbitlang$core$builtin$$Map$grow$19$(self) {
+function moonbitlang$core$builtin$$Map$grow$15$(self) {
   const old_head = self.head;
   const old_list = self.list;
   const new_capacity = self.capacity << 1;
@@ -619,18 +619,18 @@ function moonbitlang$core$builtin$$Map$grow$19$(self) {
       const _idx = _x.idx;
       const _key = _x.key;
       const _value = _x.value;
-      moonbitlang$core$builtin$$Map$set$19$(self, _key, _value);
+      moonbitlang$core$builtin$$Map$set$15$(self, _key, _value);
       $bound_check(old_list, _idx);
       _tmp = old_list[_idx].next;
       continue;
     }
   }
 }
-function moonbitlang$core$builtin$$Map$op_set$19$(self, key, value) {
-  moonbitlang$core$builtin$$Map$set$19$(self, key, value);
+function moonbitlang$core$builtin$$Map$op_set$15$(self, key, value) {
+  moonbitlang$core$builtin$$Map$set$15$(self, key, value);
 }
-function moonbitlang$core$builtin$$Map$get$19$(self, key) {
-  const hash = moonbitlang$core$builtin$$Hash$hash$14$(key);
+function moonbitlang$core$builtin$$Map$get$15$(self, key) {
+  const hash = moonbitlang$core$builtin$$Hash$hash$12$(key);
   let _tmp = 0;
   let _tmp$2 = hash & self.capacity_mask;
   while (true) {
@@ -658,8 +658,8 @@ function moonbitlang$core$builtin$$Map$get$19$(self, key) {
     }
   }
 }
-function moonbitlang$core$builtin$$Map$op_get$19$(self, key) {
-  return moonbitlang$core$builtin$$Map$get$19$(self, key);
+function moonbitlang$core$builtin$$Map$op_get$15$(self, key) {
+  return moonbitlang$core$builtin$$Map$get$15$(self, key);
 }
 function moonbitlang$core$builtin$$MyInt64$extend_i32_u(value) {
   return { hi: 0, lo: value };
@@ -673,16 +673,16 @@ function moonbitlang$core$double$$Double$convert_uint64(value) {
 function moonbitlang$core$int64$$Int64$reinterpret_as_double(self) {
   return moonbitlang$core$builtin$$MyInt64$reinterpret_as_double(self);
 }
-function moonbitlang$core$builtin$$Add$op_add$15$(self, other) {
+function moonbitlang$core$builtin$$Add$op_add$13$(self, other) {
   return moonbitlang$core$builtin$$MyInt64$add_hi_lo(self, other.hi, other.lo);
 }
-function moonbitlang$core$builtin$$Add$op_add$2$(self, other) {
-  return moonbitlang$core$builtin$$Add$op_add$15$(self, other);
+function moonbitlang$core$builtin$$Add$op_add$0$(self, other) {
+  return moonbitlang$core$builtin$$Add$op_add$13$(self, other);
 }
-function moonbitlang$core$builtin$$Add$op_add$8$(self, other) {
-  return moonbitlang$core$builtin$$Add$op_add$15$(self, other);
+function moonbitlang$core$builtin$$Add$op_add$6$(self, other) {
+  return moonbitlang$core$builtin$$Add$op_add$13$(self, other);
 }
-function moonbitlang$core$array$$Array$push$7$(self, value) {
+function moonbitlang$core$array$$Array$push$5$(self, value) {
   moonbitlang$core$builtin$$JSArray$push(self, value);
 }
 function moonbitlang$core$uint64$$UInt64$to_byte(self) {
@@ -691,10 +691,10 @@ function moonbitlang$core$uint64$$UInt64$to_byte(self) {
 function moonbitlang$core$byte$$Byte$to_int64(self) {
   return moonbitlang$core$int$$Int$to_int64(self);
 }
-function moonbitlang$core$builtin$$Neg$op_neg$15$(self) {
+function moonbitlang$core$builtin$$Neg$op_neg$13$(self) {
   return self.lo === 0 ? { hi: ~self.hi + 1 | 0, lo: 0 } : { hi: ~self.hi, lo: ~self.lo + 1 | 0 };
 }
-function moonbitlang$core$builtin$$Mul$op_mul$15$(self, other) {
+function moonbitlang$core$builtin$$Mul$op_mul$13$(self, other) {
   const _ahi = self.hi;
   const _alo = self.lo;
   const _bhi = other.hi;
@@ -761,49 +761,49 @@ function moonbitlang$core$builtin$$MyInt64$lsr(self, shift) {
   const shift$2 = shift & 63;
   return shift$2 === 0 ? self : shift$2 < 32 ? { hi: self.hi >>> shift$2 | 0, lo: self.lo >>> shift$2 | self.hi << (32 - shift$2 | 0) } : { hi: 0, lo: self.hi >>> (shift$2 - 32 | 0) | 0 };
 }
-function moonbitlang$core$builtin$$Eq$op_equal$15$(self, other) {
+function moonbitlang$core$builtin$$Eq$op_equal$13$(self, other) {
   return self.hi === other.hi && self.lo === other.lo;
 }
-function moonbitlang$core$builtin$$Neg$op_neg$8$(self) {
-  return moonbitlang$core$builtin$$Neg$op_neg$15$(self);
+function moonbitlang$core$builtin$$Neg$op_neg$6$(self) {
+  return moonbitlang$core$builtin$$Neg$op_neg$13$(self);
 }
-function moonbitlang$core$builtin$$Mul$op_mul$8$(self, other) {
-  return moonbitlang$core$builtin$$Mul$op_mul$15$(self, other);
+function moonbitlang$core$builtin$$Mul$op_mul$6$(self, other) {
+  return moonbitlang$core$builtin$$Mul$op_mul$13$(self, other);
 }
-function moonbitlang$core$builtin$$BitAnd$land$8$(self, other) {
+function moonbitlang$core$builtin$$BitAnd$land$6$(self, other) {
   return moonbitlang$core$builtin$$MyInt64$land(self, other);
 }
-function moonbitlang$core$builtin$$BitOr$lor$8$(self, other) {
+function moonbitlang$core$builtin$$BitOr$lor$6$(self, other) {
   return moonbitlang$core$builtin$$MyInt64$lor(self, other);
 }
-function moonbitlang$core$builtin$$Shl$op_shl$8$(self, other) {
+function moonbitlang$core$builtin$$Shl$op_shl$6$(self, other) {
   return moonbitlang$core$builtin$$MyInt64$lsl(self, other);
 }
-function moonbitlang$core$builtin$$Eq$op_equal$8$(self, other) {
-  return moonbitlang$core$builtin$$Eq$op_equal$15$(self, other);
+function moonbitlang$core$builtin$$Eq$op_equal$6$(self, other) {
+  return moonbitlang$core$builtin$$Eq$op_equal$13$(self, other);
 }
-function moonbitlang$core$builtin$$Compare$compare$8$(self, other) {
+function moonbitlang$core$builtin$$Compare$compare$6$(self, other) {
   return moonbitlang$core$builtin$$MyInt64$compare(self, other);
 }
-function moonbitlang$core$builtin$$Sub$op_sub$2$(self, other) {
-  return moonbitlang$core$builtin$$Sub$op_sub$15$(self, other);
+function moonbitlang$core$builtin$$Sub$op_sub$0$(self, other) {
+  return moonbitlang$core$builtin$$Sub$op_sub$13$(self, other);
 }
-function moonbitlang$core$builtin$$Mul$op_mul$2$(self, other) {
-  return moonbitlang$core$builtin$$Mul$op_mul$15$(self, other);
+function moonbitlang$core$builtin$$Mul$op_mul$0$(self, other) {
+  return moonbitlang$core$builtin$$Mul$op_mul$13$(self, other);
 }
-function moonbitlang$core$builtin$$Compare$compare$2$(self, other) {
+function moonbitlang$core$builtin$$Compare$compare$0$(self, other) {
   return moonbitlang$core$builtin$$MyInt64$compare_u(self, other);
 }
-function moonbitlang$core$builtin$$Eq$op_equal$2$(self, other) {
-  return moonbitlang$core$builtin$$Eq$op_equal$15$(self, other);
+function moonbitlang$core$builtin$$Eq$op_equal$0$(self, other) {
+  return moonbitlang$core$builtin$$Eq$op_equal$13$(self, other);
 }
-function moonbitlang$core$builtin$$BitAnd$land$2$(self, other) {
+function moonbitlang$core$builtin$$BitAnd$land$0$(self, other) {
   return moonbitlang$core$builtin$$MyInt64$land(self, other);
 }
-function moonbitlang$core$builtin$$Shl$op_shl$2$(self, shift) {
+function moonbitlang$core$builtin$$Shl$op_shl$0$(self, shift) {
   return moonbitlang$core$builtin$$MyInt64$lsl(self, shift);
 }
-function moonbitlang$core$builtin$$Shr$op_shr$2$(self, shift) {
+function moonbitlang$core$builtin$$Shr$op_shr$0$(self, shift) {
   return moonbitlang$core$builtin$$MyInt64$lsr(self, shift);
 }
 function moonbitlang$core$builtin$$rotl(x, r) {
@@ -830,16 +830,16 @@ function moonbitlang$core$builtin$$Hasher$combine_string(self, value) {
     }
   }
 }
-function moonbitlang$core$builtin$$Hash$hash_combine$13$(self, hasher) {
+function moonbitlang$core$builtin$$Hash$hash_combine$11$(self, hasher) {
   moonbitlang$core$builtin$$Hasher$combine_string(hasher, self);
 }
 function moonbitlang$core$double$$Double$to_int(self) {
   return self !== self ? 0 : self >= 2147483647 ? 2147483647 : self <= -2147483648 ? -2147483648 : self | 0;
 }
-function moonbitlang$core$builtin$$println$13$(input) {
-  console.log(moonbitlang$core$builtin$$Show$to_string$13$(input));
+function moonbitlang$core$builtin$$println$11$(input) {
+  console.log(moonbitlang$core$builtin$$Show$to_string$11$(input));
 }
-function moonbitlang$core$builtin$$Eq$op_equal$18$(self, that) {
+function moonbitlang$core$builtin$$Eq$op_equal$14$(self, that) {
   return self === that;
 }
 function moonbitlang$core$json$$offset_to_position(input, offset) {
@@ -863,33 +863,33 @@ function moonbitlang$core$json$$offset_to_position(input, offset) {
   }
   return { line: line, column: column };
 }
-function moonbitlang$core$json$$ParseContext$invalid_char$11$(ctx, shift) {
+function moonbitlang$core$json$$ParseContext$invalid_char$16$(ctx, shift) {
   const offset = ctx.offset + shift | 0;
   const _tmp = ctx.input;
   return new Result$Err$0$(new Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidChar(moonbitlang$core$json$$offset_to_position(ctx.input, offset), _tmp.charCodeAt(offset)));
 }
-function moonbitlang$core$json$$ParseContext$invalid_char$20$(ctx, shift) {
+function moonbitlang$core$json$$ParseContext$invalid_char$9$(ctx, shift) {
   const offset = ctx.offset + shift | 0;
   const _tmp = ctx.input;
   return new Result$Err$1$(new Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidChar(moonbitlang$core$json$$offset_to_position(ctx.input, offset), _tmp.charCodeAt(offset)));
 }
-function moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, shift) {
+function moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, shift) {
   const offset = ctx.offset + shift | 0;
   const _tmp = ctx.input;
   return new Result$Err$2$(new Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidChar(moonbitlang$core$json$$offset_to_position(ctx.input, offset), _tmp.charCodeAt(offset)));
 }
-function moonbitlang$core$json$$ParseContext$invalid_char$7$(ctx, shift) {
+function moonbitlang$core$json$$ParseContext$invalid_char$5$(ctx, shift) {
   const offset = ctx.offset + shift | 0;
   const _tmp = ctx.input;
   return new Result$Err$3$(new Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidChar(moonbitlang$core$json$$offset_to_position(ctx.input, offset), _tmp.charCodeAt(offset)));
 }
-function moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$11$() {
+function moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$9$() {
   return 0;
 }
-function moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$4$() {
+function moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$2$() {
   return 0;
 }
-function moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$7$() {
+function moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$5$() {
   return 0;
 }
 function moonbitlang$core$json$$CharClass$of(array) {
@@ -903,7 +903,7 @@ function moonbitlang$core$json$$CharClass$contains(self, c) {
     const right = _tmp$2;
     if (left < right) {
       const middle = (left + right | 0) / 2 | 0;
-      const _bind = moonbitlang$core$array$$Array$op_get$12$(self, middle);
+      const _bind = moonbitlang$core$array$$Array$op_get$10$(self, middle);
       const _min = _bind._0;
       const _max = _bind._1;
       if (c < _min) {
@@ -992,7 +992,7 @@ function moonbitlang$core$json$$ParseContext$expect_ascii_char(ctx, c) {
     const _tmp$2 = ctx.offset;
     const c1 = _tmp.charCodeAt(_tmp$2);
     ctx.offset = ctx.offset + 1 | 0;
-    return c !== c1 ? moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1) : new Result$Ok$2$(undefined);
+    return c !== c1 ? moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1) : new Result$Ok$2$(undefined);
   } else {
     return new Result$Err$2$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
   }
@@ -1012,9 +1012,9 @@ function moonbitlang$core$json$$ParseContext$lex_number_end(ctx, start, end) {
       _try_err = _tmp$2;
       break _L;
     }
-    return new Result$Ok$0$(_tmp);
+    return new Result$Ok$1$(_tmp);
   }
-  return new Result$Err$0$(new Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidNumber(moonbitlang$core$json$$offset_to_position(ctx.input, start), s));
+  return new Result$Err$1$(new Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidNumber(moonbitlang$core$json$$offset_to_position(ctx.input, start), s));
 }
 function moonbitlang$core$json$$ParseContext$lex_decimal_exponent_integer(ctx, start) {
   while (true) {
@@ -1029,7 +1029,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_exponent_integer(ctx, s
         } else {
           return _bind$2;
         }
-        return new Result$Ok$0$(_tmp);
+        return new Result$Ok$1$(_tmp);
       } else {
         const _Some = _bind;
         const _c = _Some;
@@ -1045,7 +1045,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_exponent_integer(ctx, s
         } else {
           return _bind$2;
         }
-        return new Result$Ok$0$(_tmp);
+        return new Result$Ok$1$(_tmp);
       }
     }
     continue;
@@ -1054,7 +1054,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_exponent_integer(ctx, s
 function moonbitlang$core$json$$ParseContext$lex_decimal_exponent_sign(ctx, start) {
   const _bind = moonbitlang$core$json$$ParseContext$read_char(ctx);
   if (_bind === -1) {
-    return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+    return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
   } else {
     const _Some = _bind;
     const _c = _Some;
@@ -1067,17 +1067,17 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_exponent_sign(ctx, star
       } else {
         return _bind$2;
       }
-      return new Result$Ok$0$(_tmp);
+      return new Result$Ok$1$(_tmp);
     }
     ctx.offset = ctx.offset - 1 | 0;
-    return moonbitlang$core$json$$ParseContext$invalid_char$11$(ctx, moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$11$());
+    return moonbitlang$core$json$$ParseContext$invalid_char$9$(ctx, moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$9$());
   }
 }
 function moonbitlang$core$json$$ParseContext$lex_decimal_exponent(ctx, start) {
   _L: {
     const _bind = moonbitlang$core$json$$ParseContext$read_char(ctx);
     if (_bind === -1) {
-      return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+      return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
     } else {
       const _Some = _bind;
       const _x = _Some;
@@ -1098,10 +1098,10 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_exponent(ctx, start) {
             } else {
               return _bind$2;
             }
-            return new Result$Ok$0$(_tmp);
+            return new Result$Ok$1$(_tmp);
           }
           ctx.offset = ctx.offset - 1 | 0;
-          return moonbitlang$core$json$$ParseContext$invalid_char$11$(ctx, moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$11$());
+          return moonbitlang$core$json$$ParseContext$invalid_char$9$(ctx, moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$9$());
         }
       }
     }
@@ -1114,7 +1114,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_exponent(ctx, start) {
   } else {
     return _bind;
   }
-  return new Result$Ok$0$(_tmp);
+  return new Result$Ok$1$(_tmp);
 }
 function moonbitlang$core$json$$ParseContext$lex_decimal_fraction(ctx, start) {
   while (true) {
@@ -1130,7 +1130,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_fraction(ctx, start) {
           } else {
             return _bind$2;
           }
-          return new Result$Ok$0$(_tmp);
+          return new Result$Ok$1$(_tmp);
         } else {
           const _Some = _bind;
           const _x = _Some;
@@ -1154,7 +1154,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_fraction(ctx, start) {
               } else {
                 return _bind$2;
               }
-              return new Result$Ok$0$(_tmp);
+              return new Result$Ok$1$(_tmp);
             }
           }
         }
@@ -1167,7 +1167,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_fraction(ctx, start) {
       } else {
         return _bind;
       }
-      return new Result$Ok$0$(_tmp);
+      return new Result$Ok$1$(_tmp);
     }
     continue;
   }
@@ -1175,11 +1175,11 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_fraction(ctx, start) {
 function moonbitlang$core$json$$ParseContext$lex_decimal_point(ctx, start) {
   const _bind = moonbitlang$core$json$$ParseContext$read_char(ctx);
   if (_bind === -1) {
-    return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+    return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
   } else {
     const _Some = _bind;
     const _c = _Some;
-    return _c >= 48 && _c <= 57 ? moonbitlang$core$json$$ParseContext$lex_decimal_fraction(ctx, start) : moonbitlang$core$json$$ParseContext$invalid_char$11$(ctx, -1);
+    return _c >= 48 && _c <= 57 ? moonbitlang$core$json$$ParseContext$lex_decimal_fraction(ctx, start) : moonbitlang$core$json$$ParseContext$invalid_char$9$(ctx, -1);
   }
 }
 function moonbitlang$core$json$$ParseContext$lex_decimal_integer(ctx, start) {
@@ -1196,7 +1196,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_integer(ctx, start) {
           } else {
             return _bind$2;
           }
-          return new Result$Ok$0$(_tmp);
+          return new Result$Ok$1$(_tmp);
         } else {
           const _Some = _bind;
           const _x = _Some;
@@ -1210,7 +1210,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_integer(ctx, start) {
               } else {
                 return _bind$2;
               }
-              return new Result$Ok$0$(_tmp);
+              return new Result$Ok$1$(_tmp);
             }
             case 101: {
               break _L$2;
@@ -1231,7 +1231,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_integer(ctx, start) {
               } else {
                 return _bind$3;
               }
-              return new Result$Ok$0$(_tmp$2);
+              return new Result$Ok$1$(_tmp$2);
             }
           }
         }
@@ -1244,7 +1244,7 @@ function moonbitlang$core$json$$ParseContext$lex_decimal_integer(ctx, start) {
       } else {
         return _bind;
       }
-      return new Result$Ok$0$(_tmp);
+      return new Result$Ok$1$(_tmp);
     }
     continue;
   }
@@ -1264,7 +1264,7 @@ function moonbitlang$core$json$$ParseContext$lex_hex_digits(ctx, n) {
         if (_c >= 65) {
           const d = ((_c & ~32) - 65 | 0) + 10 | 0;
           if (d > 15) {
-            const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+            const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
             if (_bind$2.$tag === 1) {
               const _ok = _bind$2;
               _ok._0;
@@ -1277,7 +1277,7 @@ function moonbitlang$core$json$$ParseContext$lex_hex_digits(ctx, n) {
           if (_c >= 48) {
             const d = _c - 48 | 0;
             if (d > 9) {
-              const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+              const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
               if (_bind$2.$tag === 1) {
                 const _ok = _bind$2;
                 _ok._0;
@@ -1287,7 +1287,7 @@ function moonbitlang$core$json$$ParseContext$lex_hex_digits(ctx, n) {
             }
             r = r << 4 | d;
           } else {
-            const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+            const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
             if (_bind$2.$tag === 1) {
               const _ok = _bind$2;
               _ok._0;
@@ -1305,12 +1305,12 @@ function moonbitlang$core$json$$ParseContext$lex_hex_digits(ctx, n) {
   }
   return new Result$Ok$4$(r);
 }
-function moonbitlang$core$json$$lex_string$46$flush$21$(_env, end) {
+function moonbitlang$core$json$$lex_string$46$flush$124$228(_env, end) {
   const buf = _env._2;
   const ctx = _env._1;
   const start = _env._0;
   if (start.val > 0 && end > start.val) {
-    moonbitlang$core$builtin$$Logger$write_substring$9$(buf, ctx.input, start.val, end - start.val | 0);
+    moonbitlang$core$builtin$$Logger$write_substring$7$(buf, ctx.input, start.val, end - start.val | 0);
     return;
   } else {
     return;
@@ -1332,7 +1332,7 @@ function moonbitlang$core$json$$ParseContext$lex_string(ctx) {
             const _x = _Some;
             switch (_x) {
               case 34: {
-                moonbitlang$core$json$$lex_string$46$flush$21$(_env, ctx.offset - 1 | 0);
+                moonbitlang$core$json$$lex_string$46$flush$124$228(_env, ctx.offset - 1 | 0);
                 break _L;
               }
               case 10: {
@@ -1342,7 +1342,7 @@ function moonbitlang$core$json$$ParseContext$lex_string(ctx) {
                 break _L$4;
               }
               case 92: {
-                moonbitlang$core$json$$lex_string$46$flush$21$(_env, ctx.offset - 1 | 0);
+                moonbitlang$core$json$$lex_string$46$flush$124$228(_env, ctx.offset - 1 | 0);
                 const _bind$2 = moonbitlang$core$json$$ParseContext$read_char(ctx);
                 if (_bind$2 === -1) {
                   return new Result$Err$5$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
@@ -1351,35 +1351,35 @@ function moonbitlang$core$json$$ParseContext$lex_string(ctx) {
                   const _x$2 = _Some$2;
                   switch (_x$2) {
                     case 98: {
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, 8);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, 8);
                       break;
                     }
                     case 102: {
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, 12);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, 12);
                       break;
                     }
                     case 110: {
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, 10);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, 10);
                       break;
                     }
                     case 114: {
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, 13);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, 13);
                       break;
                     }
                     case 116: {
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, 9);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, 9);
                       break;
                     }
                     case 34: {
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, 34);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, 34);
                       break;
                     }
                     case 92: {
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, 92);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, 92);
                       break;
                     }
                     case 47: {
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, 47);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, 47);
                       break;
                     }
                     case 117: {
@@ -1391,11 +1391,11 @@ function moonbitlang$core$json$$ParseContext$lex_string(ctx) {
                       } else {
                         return _bind$3;
                       }
-                      moonbitlang$core$builtin$$Logger$write_char$9$(buf, c);
+                      moonbitlang$core$builtin$$Logger$write_char$7$(buf, c);
                       break;
                     }
                     default: {
-                      const _bind$4 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+                      const _bind$4 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
                       if (_bind$4.$tag === 1) {
                         const _ok = _bind$4;
                         _ok._0;
@@ -1410,7 +1410,7 @@ function moonbitlang$core$json$$ParseContext$lex_string(ctx) {
               }
               default: {
                 if (_x < 32) {
-                  const _bind$3 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+                  const _bind$3 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
                   if (_bind$3.$tag === 1) {
                     const _ok = _bind$3;
                     _ok._0;
@@ -1425,7 +1425,7 @@ function moonbitlang$core$json$$ParseContext$lex_string(ctx) {
           }
           break _L$3;
         }
-        const _bind = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+        const _bind = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
         if (_bind.$tag === 1) {
           const _ok = _bind;
           _ok._0;
@@ -1451,7 +1451,7 @@ function moonbitlang$core$json$$ParseContext$lex_zero(ctx, start) {
       } else {
         return _bind$2;
       }
-      return new Result$Ok$0$(_tmp);
+      return new Result$Ok$1$(_tmp);
     } else {
       const _Some = _bind;
       const _x = _Some;
@@ -1468,7 +1468,7 @@ function moonbitlang$core$json$$ParseContext$lex_zero(ctx, start) {
         default: {
           if (_x >= 48 && _x <= 57) {
             ctx.offset = ctx.offset - 1 | 0;
-            const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$4$());
+            const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$2$());
             if (_bind$2.$tag === 1) {
               const _ok = _bind$2;
               _ok._0;
@@ -1485,7 +1485,7 @@ function moonbitlang$core$json$$ParseContext$lex_zero(ctx, start) {
           } else {
             return _bind$2;
           }
-          return new Result$Ok$0$(_tmp);
+          return new Result$Ok$1$(_tmp);
         }
       }
     }
@@ -1499,7 +1499,7 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
         _L$3: {
           const _bind = moonbitlang$core$json$$ParseContext$read_char(ctx);
           if (_bind === -1) {
-            return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+            return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
           } else {
             const _Some = _bind;
             const _x = _Some;
@@ -1517,16 +1517,16 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                 break _L$3;
               }
               case 123: {
-                return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$LBrace);
+                return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$LBrace);
               }
               case 91: {
-                return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$LBracket);
+                return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$LBracket);
               }
               case 93: {
                 if (allow_rbracket) {
-                  return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$RBracket);
+                  return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$RBracket);
                 } else {
-                  const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+                  const _bind$2 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
                   if (_bind$2.$tag === 1) {
                     const _ok = _bind$2;
                     _ok._0;
@@ -1558,7 +1558,7 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                 } else {
                   return _bind$4;
                 }
-                return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$Null);
+                return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$Null);
               }
               case 116: {
                 const _bind$5 = moonbitlang$core$json$$ParseContext$expect_ascii_char(ctx, 114);
@@ -1582,7 +1582,7 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                 } else {
                   return _bind$7;
                 }
-                return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$True);
+                return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$True);
               }
               case 102: {
                 const _bind$8 = moonbitlang$core$json$$ParseContext$expect_ascii_char(ctx, 97);
@@ -1613,12 +1613,12 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                 } else {
                   return _bind$11;
                 }
-                return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$False);
+                return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$False);
               }
               case 45: {
                 const _bind$12 = moonbitlang$core$json$$ParseContext$read_char(ctx);
                 if (_bind$12 === -1) {
-                  return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+                  return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
                 } else {
                   const _Some$2 = _bind$12;
                   const _x$2 = _Some$2;
@@ -1631,7 +1631,7 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                     } else {
                       return _bind$13;
                     }
-                    return new Result$Ok$1$(new $64$moonbitlang$47$core$47$json$46$Token$Number(n));
+                    return new Result$Ok$0$(new $64$moonbitlang$47$core$47$json$46$Token$Number(n));
                   } else {
                     if (49 <= _x$2 && _x$2 <= 57) {
                       const _bind$13 = moonbitlang$core$json$$ParseContext$lex_decimal_integer(ctx, ctx.offset - 2 | 0);
@@ -1642,9 +1642,9 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                       } else {
                         return _bind$13;
                       }
-                      return new Result$Ok$1$(new $64$moonbitlang$47$core$47$json$46$Token$Number(n));
+                      return new Result$Ok$0$(new $64$moonbitlang$47$core$47$json$46$Token$Number(n));
                     }
-                    const _bind$13 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+                    const _bind$13 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
                     if (_bind$13.$tag === 1) {
                       const _ok = _bind$13;
                       _ok._0;
@@ -1664,7 +1664,7 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                 } else {
                   return _bind$13;
                 }
-                return new Result$Ok$1$(new $64$moonbitlang$47$core$47$json$46$Token$Number(n));
+                return new Result$Ok$0$(new $64$moonbitlang$47$core$47$json$46$Token$Number(n));
               }
               default: {
                 if (49 <= _x && _x <= 57) {
@@ -1676,7 +1676,7 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                   } else {
                     return _bind$14;
                   }
-                  return new Result$Ok$1$(new $64$moonbitlang$47$core$47$json$46$Token$Number(n$2));
+                  return new Result$Ok$0$(new $64$moonbitlang$47$core$47$json$46$Token$Number(n$2));
                 } else {
                   if (_x === 34) {
                     const _bind$14 = moonbitlang$core$json$$ParseContext$lex_string(ctx);
@@ -1687,12 +1687,12 @@ function moonbitlang$core$json$$ParseContext$lex_value(ctx, allow_rbracket) {
                     } else {
                       return _bind$14;
                     }
-                    return new Result$Ok$1$(new $64$moonbitlang$47$core$47$json$46$Token$String(s));
+                    return new Result$Ok$0$(new $64$moonbitlang$47$core$47$json$46$Token$String(s));
                   } else {
                     if (_x > 127 && moonbitlang$core$json$$CharClass$contains(moonbitlang$core$json$$non_ascii_whitespace, _x)) {
                       break _L;
                     }
-                    const _bind$14 = moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+                    const _bind$14 = moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
                     if (_bind$14.$tag === 1) {
                       const _ok = _bind$14;
                       _ok._0;
@@ -1717,19 +1717,19 @@ function moonbitlang$core$json$$ParseContext$lex_after_array_value(ctx) {
   moonbitlang$core$json$$ParseContext$lex_skip_whitespace(ctx);
   const _bind = moonbitlang$core$json$$ParseContext$read_char(ctx);
   if (_bind === -1) {
-    return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+    return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
   } else {
     const _Some = _bind;
     const _x = _Some;
     switch (_x) {
       case 93: {
-        return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$RBracket);
+        return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$RBracket);
       }
       case 44: {
-        return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$Comma);
+        return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$Comma);
       }
       default: {
-        return moonbitlang$core$json$$ParseContext$invalid_char$20$(ctx, -1);
+        return moonbitlang$core$json$$ParseContext$invalid_char$16$(ctx, -1);
       }
     }
   }
@@ -1738,19 +1738,19 @@ function moonbitlang$core$json$$ParseContext$lex_after_object_value(ctx) {
   moonbitlang$core$json$$ParseContext$lex_skip_whitespace(ctx);
   const _bind = moonbitlang$core$json$$ParseContext$read_char(ctx);
   if (_bind === -1) {
-    return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+    return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
   } else {
     const _Some = _bind;
     const _x = _Some;
     switch (_x) {
       case 125: {
-        return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$RBrace);
+        return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$RBrace);
       }
       case 44: {
-        return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$Comma);
+        return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$Comma);
       }
       default: {
-        return moonbitlang$core$json$$ParseContext$invalid_char$20$(ctx, -1);
+        return moonbitlang$core$json$$ParseContext$invalid_char$16$(ctx, -1);
       }
     }
   }
@@ -1766,7 +1766,7 @@ function moonbitlang$core$json$$ParseContext$lex_after_property_name(ctx) {
     if (_x === 58) {
       return new Result$Ok$2$(undefined);
     } else {
-      return moonbitlang$core$json$$ParseContext$invalid_char$4$(ctx, -1);
+      return moonbitlang$core$json$$ParseContext$invalid_char$2$(ctx, -1);
     }
   }
 }
@@ -1774,13 +1774,13 @@ function moonbitlang$core$json$$ParseContext$lex_property_name(ctx) {
   moonbitlang$core$json$$ParseContext$lex_skip_whitespace(ctx);
   const _bind = moonbitlang$core$json$$ParseContext$read_char(ctx);
   if (_bind === -1) {
-    return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+    return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
   } else {
     const _Some = _bind;
     const _x = _Some;
     switch (_x) {
       case 125: {
-        return new Result$Ok$1$($64$moonbitlang$47$core$47$json$46$Token$RBrace);
+        return new Result$Ok$0$($64$moonbitlang$47$core$47$json$46$Token$RBrace);
       }
       case 34: {
         const _bind$2 = moonbitlang$core$json$$ParseContext$lex_string(ctx);
@@ -1791,10 +1791,10 @@ function moonbitlang$core$json$$ParseContext$lex_property_name(ctx) {
         } else {
           return _bind$2;
         }
-        return new Result$Ok$1$(new $64$moonbitlang$47$core$47$json$46$Token$String(s));
+        return new Result$Ok$0$(new $64$moonbitlang$47$core$47$json$46$Token$String(s));
       }
       default: {
-        return moonbitlang$core$json$$ParseContext$invalid_char$20$(ctx, -1);
+        return moonbitlang$core$json$$ParseContext$invalid_char$16$(ctx, -1);
       }
     }
   }
@@ -1803,7 +1803,7 @@ function moonbitlang$core$json$$ParseContext$lex_property_name2(ctx) {
   moonbitlang$core$json$$ParseContext$lex_skip_whitespace(ctx);
   const _bind = moonbitlang$core$json$$ParseContext$read_char(ctx);
   if (_bind === -1) {
-    return new Result$Err$1$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
+    return new Result$Err$0$(Error$moonbitlang$47$core$47$json$46$ParseError$46$InvalidEof);
   } else {
     const _Some = _bind;
     const _x = _Some;
@@ -1816,9 +1816,9 @@ function moonbitlang$core$json$$ParseContext$lex_property_name2(ctx) {
       } else {
         return _bind$2;
       }
-      return new Result$Ok$1$(new $64$moonbitlang$47$core$47$json$46$Token$String(s));
+      return new Result$Ok$0$(new $64$moonbitlang$47$core$47$json$46$Token$String(s));
     } else {
-      return moonbitlang$core$json$$ParseContext$invalid_char$20$(ctx, -1);
+      return moonbitlang$core$json$$ParseContext$invalid_char$16$(ctx, -1);
     }
   }
 }
@@ -1872,7 +1872,7 @@ function moonbitlang$core$json$$ParseContext$parse_value2(ctx, tok) {
       }
     }
   }
-  return new Result$Ok$3$(moonbitlang$core$builtin$$abort$7$("unreachable"));
+  return new Result$Ok$3$(moonbitlang$core$builtin$$abort$5$("unreachable"));
 }
 function moonbitlang$core$json$$ParseContext$parse_array(ctx) {
   const vec = [];
@@ -1900,7 +1900,7 @@ function moonbitlang$core$json$$ParseContext$parse_array(ctx) {
       } else {
         return _bind$2;
       }
-      moonbitlang$core$array$$Array$push$7$(vec, _tmp$4);
+      moonbitlang$core$array$$Array$push$5$(vec, _tmp$4);
       const _bind$3 = moonbitlang$core$json$$ParseContext$lex_after_array_value(ctx);
       let tok2;
       if (_bind$3.$tag === 1) {
@@ -1927,7 +1927,7 @@ function moonbitlang$core$json$$ParseContext$parse_array(ctx) {
           break _L;
         }
         default: {
-          _tmp = moonbitlang$core$builtin$$abort$7$("unreachable");
+          _tmp = moonbitlang$core$builtin$$abort$5$("unreachable");
           break _L;
         }
       }
@@ -1936,7 +1936,7 @@ function moonbitlang$core$json$$ParseContext$parse_array(ctx) {
   return new Result$Ok$3$(_tmp);
 }
 function moonbitlang$core$json$$ParseContext$parse_object(ctx) {
-  const map = moonbitlang$core$builtin$$Map$new$19$(moonbitlang$core$builtin$$Map$new$46$capacity$46$default$19$());
+  const map = moonbitlang$core$builtin$$Map$new$15$(moonbitlang$core$builtin$$Map$new$46$capacity$46$default$15$());
   let _tmp;
   const _bind = moonbitlang$core$json$$ParseContext$lex_property_name(ctx);
   let _tmp$2;
@@ -1972,7 +1972,7 @@ function moonbitlang$core$json$$ParseContext$parse_object(ctx) {
         } else {
           return _bind$3;
         }
-        moonbitlang$core$builtin$$Map$op_set$19$(map, _name, _tmp$4);
+        moonbitlang$core$builtin$$Map$op_set$15$(map, _name, _tmp$4);
         const _bind$4 = moonbitlang$core$json$$ParseContext$lex_after_object_value(ctx);
         let _bind$5;
         if (_bind$4.$tag === 1) {
@@ -1999,13 +1999,13 @@ function moonbitlang$core$json$$ParseContext$parse_object(ctx) {
             break _L;
           }
           default: {
-            _tmp = moonbitlang$core$builtin$$abort$7$("unreachable");
+            _tmp = moonbitlang$core$builtin$$abort$5$("unreachable");
             break _L;
           }
         }
       }
       default: {
-        _tmp = moonbitlang$core$builtin$$abort$7$("unreachable");
+        _tmp = moonbitlang$core$builtin$$abort$5$("unreachable");
         break _L;
       }
     }
@@ -2023,24 +2023,24 @@ function moonbitlang$core$json$$parse(input) {
     return _bind;
   }
   moonbitlang$core$json$$ParseContext$lex_skip_whitespace(ctx);
-  return ctx.offset >= ctx.end_offset ? new Result$Ok$3$(val) : moonbitlang$core$json$$ParseContext$invalid_char$7$(ctx, moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$7$());
+  return ctx.offset >= ctx.end_offset ? new Result$Ok$3$(val) : moonbitlang$core$json$$ParseContext$invalid_char$5$(ctx, moonbitlang$core$json$$ParseContext$invalid_char$46$shift$46$default$5$());
 }
-function moonbitlang$core$builtin$$Default$default$22$() {
+function moonbitlang$core$builtin$$Default$default$17$() {
   return Option$None$6$;
 }
-function moonbitlang$core$strconv$$range_err$4$() {
+function moonbitlang$core$strconv$$range_err$2$() {
   return new Result$Err$7$(new Error$moonbitlang$47$core$47$strconv$46$StrConvError$46$StrConvError(moonbitlang$core$strconv$$range_err_str));
 }
-function moonbitlang$core$strconv$$syntax_err$23$() {
+function moonbitlang$core$strconv$$syntax_err$18$() {
   return new Result$Err$8$(new Error$moonbitlang$47$core$47$strconv$46$StrConvError$46$StrConvError(moonbitlang$core$strconv$$syntax_err_str));
 }
-function moonbitlang$core$strconv$$syntax_err$5$() {
+function moonbitlang$core$strconv$$syntax_err$3$() {
   return new Result$Err$9$(new Error$moonbitlang$47$core$47$strconv$46$StrConvError$46$StrConvError(moonbitlang$core$strconv$$syntax_err_str));
 }
-function moonbitlang$core$strconv$$syntax_err$24$() {
+function moonbitlang$core$strconv$$syntax_err$19$() {
   return new Result$Err$10$(new Error$moonbitlang$47$core$47$strconv$46$StrConvError$46$StrConvError(moonbitlang$core$strconv$$syntax_err_str));
 }
-function moonbitlang$core$strconv$$syntax_err$4$() {
+function moonbitlang$core$strconv$$syntax_err$2$() {
   return new Result$Err$7$(new Error$moonbitlang$47$core$47$strconv$46$StrConvError$46$StrConvError(moonbitlang$core$strconv$$syntax_err_str));
 }
 function moonbitlang$core$strconv$$check_underscore(str) {
@@ -2320,7 +2320,7 @@ function moonbitlang$core$strconv$$check_underscore(str) {
   }
 }
 function moonbitlang$core$strconv$$Decimal$new_priv() {
-  return { digits: $make_array_len_and_init(800, moonbitlang$core$builtin$$Default$default$18$()), digits_num: 0, decimal_point: 0, negative: false, truncated: false };
+  return { digits: $make_array_len_and_init(800, moonbitlang$core$builtin$$Default$default$14$()), digits_num: 0, decimal_point: 0, negative: false, truncated: false };
 }
 function moonbitlang$core$strconv$$Decimal$trim(self) {
   while (true) {
@@ -2329,7 +2329,7 @@ function moonbitlang$core$strconv$$Decimal$trim(self) {
       const _tmp$2 = self.digits;
       const _tmp$3 = self.digits_num - 1 | 0;
       $bound_check(_tmp$2, _tmp$3);
-      _tmp = moonbitlang$core$builtin$$Eq$op_equal$18$(_tmp$2[_tmp$3], 0);
+      _tmp = moonbitlang$core$builtin$$Eq$op_equal$14$(_tmp$2[_tmp$3], 0);
     } else {
       _tmp = false;
     }
@@ -2439,7 +2439,7 @@ function moonbitlang$core$strconv$$parse_decimal_from_view(str) {
             _tmp = _x$3;
             continue _L$2;
           } else {
-            const _bind$3 = moonbitlang$core$strconv$$syntax_err$5$();
+            const _bind$3 = moonbitlang$core$strconv$$syntax_err$3$();
             if (_bind$3.$tag === 1) {
               const _ok = _bind$3;
               rest$2 = _ok._0;
@@ -2647,7 +2647,7 @@ function moonbitlang$core$strconv$$parse_decimal_from_view(str) {
           }
           break _L$5;
         }
-        const _bind = moonbitlang$core$strconv$$syntax_err$5$();
+        const _bind = moonbitlang$core$strconv$$syntax_err$3$();
         if (_bind.$tag === 1) {
           const _ok = _bind;
           rest$3 = _ok._0;
@@ -2660,10 +2660,10 @@ function moonbitlang$core$strconv$$parse_decimal_from_view(str) {
       moonbitlang$core$strconv$$Decimal$trim(d);
       return new Result$Ok$8$(d);
     } else {
-      return moonbitlang$core$strconv$$syntax_err$23$();
+      return moonbitlang$core$strconv$$syntax_err$18$();
     }
   } else {
-    return moonbitlang$core$strconv$$syntax_err$23$();
+    return moonbitlang$core$strconv$$syntax_err$18$();
   }
 }
 function moonbitlang$core$strconv$$parse_decimal_priv(str) {
@@ -2715,7 +2715,7 @@ function moonbitlang$core$strconv$$StringSlice$step_1_unchecked(self) {
 function moonbitlang$core$strconv$$StringSlice$subfix_unchecked(self, start) {
   return { string: self.string, start: self.start + start | 0, end: self.end };
 }
-function moonbitlang$core$strconv$$parse_inf_nan$46$parse_inf_rest$25$(s) {
+function moonbitlang$core$strconv$$parse_inf_nan$46$parse_inf_rest$124$281(s) {
   return moonbitlang$core$strconv$$StringSlice$length(s) >= 8 && moonbitlang$core$strconv$$StringSlice$prefix_eq_ignore_case(moonbitlang$core$strconv$$StringSlice$subfix_unchecked(s, 3), "inity") ? 8 : 3;
 }
 function moonbitlang$core$strconv$$parse_inf_nan(s) {
@@ -2725,7 +2725,7 @@ function moonbitlang$core$strconv$$parse_inf_nan(s) {
       return { _0: moonbitlang$core$double$$not_a_number, _1: 3 };
     } else {
       if (moonbitlang$core$strconv$$StringSlice$prefix_eq_ignore_case(s$2, "inf")) {
-        return { _0: moonbitlang$core$double$$infinity, _1: moonbitlang$core$strconv$$parse_inf_nan$46$parse_inf_rest$25$(s$2) };
+        return { _0: moonbitlang$core$double$$infinity, _1: moonbitlang$core$strconv$$parse_inf_nan$46$parse_inf_rest$124$281(s$2) };
       } else {
         if (moonbitlang$core$strconv$$StringSlice$length(s$2) >= 4) {
           if (moonbitlang$core$strconv$$StringSlice$first_is(s$2, 43)) {
@@ -2734,7 +2734,7 @@ function moonbitlang$core$strconv$$parse_inf_nan(s) {
               return { _0: moonbitlang$core$double$$not_a_number, _1: 4 };
             } else {
               if (moonbitlang$core$strconv$$StringSlice$prefix_eq_ignore_case(s$3, "inf")) {
-                return { _0: moonbitlang$core$double$$infinity, _1: 1 + moonbitlang$core$strconv$$parse_inf_nan$46$parse_inf_rest$25$(s$3) | 0 };
+                return { _0: moonbitlang$core$double$$infinity, _1: 1 + moonbitlang$core$strconv$$parse_inf_nan$46$parse_inf_rest$124$281(s$3) | 0 };
               }
             }
           } else {
@@ -2744,7 +2744,7 @@ function moonbitlang$core$strconv$$parse_inf_nan(s) {
                 return { _0: moonbitlang$core$double$$not_a_number, _1: 4 };
               } else {
                 if (moonbitlang$core$strconv$$StringSlice$prefix_eq_ignore_case(s$3, "inf")) {
-                  return { _0: moonbitlang$core$double$$neg_infinity, _1: 1 + moonbitlang$core$strconv$$parse_inf_nan$46$parse_inf_rest$25$(s$3) | 0 };
+                  return { _0: moonbitlang$core$double$$neg_infinity, _1: 1 + moonbitlang$core$strconv$$parse_inf_nan$46$parse_inf_rest$124$281(s$3) | 0 };
                 }
               }
             }
@@ -2761,7 +2761,7 @@ function moonbitlang$core$strconv$$is_digit(c) {
 function moonbitlang$core$strconv$$to_digit(c) {
   return c - 48 | 0;
 }
-function moonbitlang$core$strconv$$StringSlice$fold_digits$8$(self, init, f) {
+function moonbitlang$core$strconv$$StringSlice$fold_digits$6$(self, init, f) {
   let ret = init;
   let len = 0;
   const _end343 = moonbitlang$core$strconv$$StringSlice$length(self);
@@ -2784,7 +2784,7 @@ function moonbitlang$core$strconv$$StringSlice$fold_digits$8$(self, init, f) {
   }
   return { _0: moonbitlang$core$strconv$$StringSlice$subfix_unchecked(self, moonbitlang$core$strconv$$StringSlice$length(self)), _1: ret, _2: len };
 }
-function moonbitlang$core$strconv$$StringSlice$fold_digits$2$(self, init, f) {
+function moonbitlang$core$strconv$$StringSlice$fold_digits$0$(self, init, f) {
   let ret = init;
   let len = 0;
   const _end343 = moonbitlang$core$strconv$$StringSlice$length(self);
@@ -2808,7 +2808,7 @@ function moonbitlang$core$strconv$$StringSlice$fold_digits$2$(self, init, f) {
   return { _0: moonbitlang$core$strconv$$StringSlice$subfix_unchecked(self, moonbitlang$core$strconv$$StringSlice$length(self)), _1: ret, _2: len };
 }
 function moonbitlang$core$strconv$$parse_digits(s, x) {
-  return moonbitlang$core$strconv$$StringSlice$fold_digits$2$(s, x, (digit, acc) => moonbitlang$core$builtin$$Add$op_add$2$(moonbitlang$core$builtin$$Mul$op_mul$2$(acc, $10L), moonbitlang$core$uint64$$UInt64$extend_uint(digit)));
+  return moonbitlang$core$strconv$$StringSlice$fold_digits$0$(s, x, (digit, acc) => moonbitlang$core$builtin$$Add$op_add$0$(moonbitlang$core$builtin$$Mul$op_mul$0$(acc, $10L), moonbitlang$core$uint64$$UInt64$extend_uint(digit)));
 }
 function moonbitlang$core$strconv$$StringSlice$first_is_digit(self) {
   return moonbitlang$core$strconv$$StringSlice$length(self) > 0 && moonbitlang$core$strconv$$is_digit(moonbitlang$core$strconv$$StringSlice$op_get(self, 0));
@@ -2850,10 +2850,10 @@ function moonbitlang$core$strconv$$parse_scientific(s) {
     s$2 = moonbitlang$core$strconv$$StringSlice$step_1_unchecked(s$2);
   }
   if (moonbitlang$core$strconv$$StringSlice$first_is_digit(s$2)) {
-    const _bind$2 = moonbitlang$core$strconv$$StringSlice$fold_digits$8$(s$2, moonbitlang$core$strconv$$parse_scientific$46$exp_num$0$, (digit, exp_num) => moonbitlang$core$builtin$$op_lt$8$(exp_num, $65536L) ? moonbitlang$core$builtin$$Add$op_add$8$(moonbitlang$core$builtin$$Mul$op_mul$8$($10L, exp_num), moonbitlang$core$int$$Int$to_int64(digit)) : exp_num);
+    const _bind$2 = moonbitlang$core$strconv$$StringSlice$fold_digits$6$(s$2, moonbitlang$core$strconv$$parse_scientific$46$exp_num$124$320, (digit, exp_num) => moonbitlang$core$builtin$$op_lt$6$(exp_num, $65536L) ? moonbitlang$core$builtin$$Add$op_add$6$(moonbitlang$core$builtin$$Mul$op_mul$6$($10L, exp_num), moonbitlang$core$int$$Int$to_int64(digit)) : exp_num);
     const _s = _bind$2._0;
     const _exp_num = _bind$2._1;
-    return neg_exp ? { _0: _s, _1: moonbitlang$core$builtin$$Neg$op_neg$8$(_exp_num) } : { _0: _s, _1: _exp_num };
+    return neg_exp ? { _0: _s, _1: moonbitlang$core$builtin$$Neg$op_neg$6$(_exp_num) } : { _0: _s, _1: _exp_num };
   } else {
     return undefined;
   }
@@ -2863,12 +2863,12 @@ function moonbitlang$core$strconv$$try_parse_19digits(s, x) {
   let s$2 = s;
   let len = 0;
   while (true) {
-    if (moonbitlang$core$builtin$$op_lt$2$(x$2, moonbitlang$core$strconv$$min_19digit_int) && moonbitlang$core$strconv$$StringSlice$first_is_digit(s$2) || moonbitlang$core$strconv$$StringSlice$first_is(s$2, 95)) {
+    if (moonbitlang$core$builtin$$op_lt$0$(x$2, moonbitlang$core$strconv$$min_19digit_int) && moonbitlang$core$strconv$$StringSlice$first_is_digit(s$2) || moonbitlang$core$strconv$$StringSlice$first_is(s$2, 95)) {
       if (moonbitlang$core$strconv$$StringSlice$first_is(s$2, 95)) {
         s$2 = moonbitlang$core$strconv$$StringSlice$step_1_unchecked(s$2);
       }
       len = len + 1 | 0;
-      x$2 = moonbitlang$core$builtin$$Add$op_add$2$(moonbitlang$core$builtin$$Mul$op_mul$2$(x$2, $10L), moonbitlang$core$uint64$$UInt64$extend_uint(moonbitlang$core$strconv$$to_digit(moonbitlang$core$strconv$$StringSlice$op_get(s$2, 0))));
+      x$2 = moonbitlang$core$builtin$$Add$op_add$0$(moonbitlang$core$builtin$$Mul$op_mul$0$(x$2, $10L), moonbitlang$core$uint64$$UInt64$extend_uint(moonbitlang$core$strconv$$to_digit(moonbitlang$core$strconv$$StringSlice$op_get(s$2, 0))));
       s$2 = moonbitlang$core$strconv$$StringSlice$step_1_unchecked(s$2);
       continue;
     } else {
@@ -2913,7 +2913,7 @@ function moonbitlang$core$strconv$$parse_number(s) {
     s$3 = _new_s;
     mantissa = _new_mantissa;
     n_after_dot = _consumed_digit;
-    exponent = moonbitlang$core$builtin$$Neg$op_neg$8$(moonbitlang$core$int$$Int$to_int64(n_after_dot));
+    exponent = moonbitlang$core$builtin$$Neg$op_neg$6$(moonbitlang$core$int$$Int$to_int64(n_after_dot));
   }
   n_digits = n_digits + n_after_dot | 0;
   if (n_digits === 0) {
@@ -2932,7 +2932,7 @@ function moonbitlang$core$strconv$$parse_number(s) {
     const _new_s = _bind$3._0;
     const _exp_number = _bind$3._1;
     s$3 = _new_s;
-    exponent = moonbitlang$core$builtin$$Add$op_add$8$(exponent, _exp_number);
+    exponent = moonbitlang$core$builtin$$Add$op_add$6$(exponent, _exp_number);
   }
   const len = moonbitlang$core$strconv$$StringSlice$length(start) - moonbitlang$core$strconv$$StringSlice$length(s$3) | 0;
   if (n_digits <= 19) {
@@ -2960,7 +2960,7 @@ function moonbitlang$core$strconv$$parse_number(s) {
     const _consumed_digit = _bind$2._2;
     mantissa$2 = _new_mantissa;
     let _tmp;
-    if (moonbitlang$core$builtin$$op_ge$2$(mantissa$2, moonbitlang$core$strconv$$min_19digit_int)) {
+    if (moonbitlang$core$builtin$$op_ge$0$(mantissa$2, moonbitlang$core$strconv$$min_19digit_int)) {
       _tmp = _consumed_digit;
     } else {
       const _bind$3 = moonbitlang$core$strconv$$StringSlice$step(_s$2, 1);
@@ -2979,17 +2979,17 @@ function moonbitlang$core$strconv$$parse_number(s) {
       _tmp = _consumed_digit$2;
     }
     exponent = moonbitlang$core$int$$Int$to_int64(_tmp);
-    exponent = moonbitlang$core$builtin$$Add$op_add$8$(exponent, moonbitlang$core$strconv$$parse_number$46$exp_number$1$);
+    exponent = moonbitlang$core$builtin$$Add$op_add$6$(exponent, moonbitlang$core$strconv$$parse_number$46$exp_number$124$301);
   }
   return { _0: { exponent: exponent, mantissa: mantissa$2, negative: negative, many_digits: many_digits }, _1: len };
 }
 function moonbitlang$core$strconv$$assemble_bits(mantissa, exponent, negative) {
   const biased_exp = exponent - moonbitlang$core$strconv$$double_info.bias | 0;
-  let bits = moonbitlang$core$builtin$$BitAnd$land$8$(mantissa, moonbitlang$core$builtin$$Sub$op_sub$8$(moonbitlang$core$builtin$$Shl$op_shl$8$($1L, moonbitlang$core$strconv$$double_info.mantissa_bits), $1L));
+  let bits = moonbitlang$core$builtin$$BitAnd$land$6$(mantissa, moonbitlang$core$builtin$$Sub$op_sub$6$(moonbitlang$core$builtin$$Shl$op_shl$6$($1L, moonbitlang$core$strconv$$double_info.mantissa_bits), $1L));
   const exp_bits = moonbitlang$core$int$$Int$to_int64(biased_exp & ((1 << moonbitlang$core$strconv$$double_info.exponent_bits) - 1 | 0));
-  bits = moonbitlang$core$builtin$$BitOr$lor$8$(bits, moonbitlang$core$builtin$$Shl$op_shl$8$(exp_bits, moonbitlang$core$strconv$$double_info.mantissa_bits));
+  bits = moonbitlang$core$builtin$$BitOr$lor$6$(bits, moonbitlang$core$builtin$$Shl$op_shl$6$(exp_bits, moonbitlang$core$strconv$$double_info.mantissa_bits));
   if (negative) {
-    bits = moonbitlang$core$builtin$$BitOr$lor$8$(bits, moonbitlang$core$builtin$$Shl$op_shl$8$(moonbitlang$core$builtin$$Shl$op_shl$8$($1L, moonbitlang$core$strconv$$double_info.mantissa_bits), moonbitlang$core$strconv$$double_info.exponent_bits));
+    bits = moonbitlang$core$builtin$$BitOr$lor$6$(bits, moonbitlang$core$builtin$$Shl$op_shl$6$(moonbitlang$core$builtin$$Shl$op_shl$6$($1L, moonbitlang$core$strconv$$double_info.mantissa_bits), moonbitlang$core$strconv$$double_info.exponent_bits));
   }
   return bits;
 }
@@ -3032,11 +3032,11 @@ function moonbitlang$core$strconv$$Decimal$rounded_integer(self) {
   let i = 0;
   while (true) {
     if (i < self.decimal_point && i < self.digits_num) {
-      const _tmp = moonbitlang$core$builtin$$Mul$op_mul$8$(n, $10L);
+      const _tmp = moonbitlang$core$builtin$$Mul$op_mul$6$(n, $10L);
       const _tmp$2 = self.digits;
       const _tmp$3 = i;
       $bound_check(_tmp$2, _tmp$3);
-      n = moonbitlang$core$builtin$$Add$op_add$8$(_tmp, moonbitlang$core$byte$$Byte$to_int64(_tmp$2[_tmp$3]));
+      n = moonbitlang$core$builtin$$Add$op_add$6$(_tmp, moonbitlang$core$byte$$Byte$to_int64(_tmp$2[_tmp$3]));
       i = i + 1 | 0;
       continue;
     } else {
@@ -3045,7 +3045,7 @@ function moonbitlang$core$strconv$$Decimal$rounded_integer(self) {
   }
   while (true) {
     if (i < self.decimal_point) {
-      n = moonbitlang$core$builtin$$Mul$op_mul$8$(n, $10L);
+      n = moonbitlang$core$builtin$$Mul$op_mul$6$(n, $10L);
       i = i + 1 | 0;
       continue;
     } else {
@@ -3053,13 +3053,13 @@ function moonbitlang$core$strconv$$Decimal$rounded_integer(self) {
     }
   }
   if (moonbitlang$core$strconv$$Decimal$should_round_up(self, self.decimal_point)) {
-    n = moonbitlang$core$builtin$$Add$op_add$8$(n, $1L);
+    n = moonbitlang$core$builtin$$Add$op_add$6$(n, $1L);
   }
   return n;
 }
 function moonbitlang$core$strconv$$Decimal$new_digits(self, s) {
-  const new_digits = moonbitlang$core$array$$Array$op_get$10$(moonbitlang$core$strconv$$left_shift_cheats, s)._0;
-  const cheat_num = moonbitlang$core$array$$Array$op_get$10$(moonbitlang$core$strconv$$left_shift_cheats, s)._1;
+  const new_digits = moonbitlang$core$array$$Array$op_get$8$(moonbitlang$core$strconv$$left_shift_cheats, s)._0;
+  const cheat_num = moonbitlang$core$array$$Array$op_get$8$(moonbitlang$core$strconv$$left_shift_cheats, s)._1;
   let less = false;
   const _end83 = cheat_num.length;
   let _tmp = 0;
@@ -3099,9 +3099,9 @@ function moonbitlang$core$strconv$$Decimal$left_shift(self, s) {
       const _tmp$2 = read_index;
       $bound_check(_tmp, _tmp$2);
       const d = moonbitlang$core$byte$$Byte$to_int64(_tmp[_tmp$2]);
-      acc = moonbitlang$core$builtin$$Add$op_add$8$(acc, moonbitlang$core$builtin$$Shl$op_shl$8$(d, s));
-      const quo = moonbitlang$core$builtin$$Div$op_div$8$(acc, $10L);
-      const rem = moonbitlang$core$int64$$Int64$to_int(moonbitlang$core$builtin$$Sub$op_sub$8$(acc, moonbitlang$core$builtin$$Mul$op_mul$8$(quo, $10L)));
+      acc = moonbitlang$core$builtin$$Add$op_add$6$(acc, moonbitlang$core$builtin$$Shl$op_shl$6$(d, s));
+      const quo = moonbitlang$core$builtin$$Div$op_div$6$(acc, $10L);
+      const rem = moonbitlang$core$int64$$Int64$to_int(moonbitlang$core$builtin$$Sub$op_sub$6$(acc, moonbitlang$core$builtin$$Mul$op_mul$6$(quo, $10L)));
       write_index = write_index - 1 | 0;
       if (write_index < self.digits.length) {
         const _tmp$3 = self.digits;
@@ -3121,9 +3121,9 @@ function moonbitlang$core$strconv$$Decimal$left_shift(self, s) {
     }
   }
   while (true) {
-    if (moonbitlang$core$builtin$$op_gt$8$(acc, $0L)) {
-      const quo = moonbitlang$core$builtin$$Div$op_div$8$(acc, $10L);
-      const rem = moonbitlang$core$int64$$Int64$to_int(moonbitlang$core$builtin$$Sub$op_sub$8$(acc, moonbitlang$core$builtin$$Mul$op_mul$8$($10L, quo)));
+    if (moonbitlang$core$builtin$$op_gt$6$(acc, $0L)) {
+      const quo = moonbitlang$core$builtin$$Div$op_div$6$(acc, $10L);
+      const rem = moonbitlang$core$int64$$Int64$to_int(moonbitlang$core$builtin$$Sub$op_sub$6$(acc, moonbitlang$core$builtin$$Mul$op_mul$6$($10L, quo)));
       write_index = write_index - 1 | 0;
       if (write_index < self.digits.length) {
         const _tmp = self.digits;
@@ -3153,11 +3153,11 @@ function moonbitlang$core$strconv$$Decimal$right_shift(self, s) {
   let write_index = 0;
   let acc = $0L;
   while (true) {
-    if (moonbitlang$core$builtin$$Eq$op_equal$2$(moonbitlang$core$builtin$$Shr$op_shr$2$(acc, s), $0L)) {
+    if (moonbitlang$core$builtin$$Eq$op_equal$0$(moonbitlang$core$builtin$$Shr$op_shr$0$(acc, s), $0L)) {
       if (read_index >= self.digits_num) {
         while (true) {
-          if (moonbitlang$core$builtin$$Eq$op_equal$2$(moonbitlang$core$builtin$$Shr$op_shr$2$(acc, s), $0L)) {
-            acc = moonbitlang$core$builtin$$Mul$op_mul$2$(acc, $10L);
+          if (moonbitlang$core$builtin$$Eq$op_equal$0$(moonbitlang$core$builtin$$Shr$op_shr$0$(acc, s), $0L)) {
+            acc = moonbitlang$core$builtin$$Mul$op_mul$0$(acc, $10L);
             read_index = read_index + 1 | 0;
             continue;
           } else {
@@ -3170,7 +3170,7 @@ function moonbitlang$core$strconv$$Decimal$right_shift(self, s) {
       const _tmp$2 = read_index;
       $bound_check(_tmp, _tmp$2);
       const d = _tmp[_tmp$2];
-      acc = moonbitlang$core$builtin$$Add$op_add$2$(moonbitlang$core$builtin$$Mul$op_mul$2$(acc, $10L), moonbitlang$core$byte$$Byte$to_int64(d));
+      acc = moonbitlang$core$builtin$$Add$op_add$0$(moonbitlang$core$builtin$$Mul$op_mul$0$(acc, $10L), moonbitlang$core$byte$$Byte$to_int64(d));
       read_index = read_index + 1 | 0;
       continue;
     } else {
@@ -3178,21 +3178,21 @@ function moonbitlang$core$strconv$$Decimal$right_shift(self, s) {
     }
   }
   self.decimal_point = self.decimal_point - (read_index - 1 | 0) | 0;
-  const mask = moonbitlang$core$builtin$$Sub$op_sub$2$(moonbitlang$core$builtin$$Shl$op_shl$2$($1L, s), $1L);
+  const mask = moonbitlang$core$builtin$$Sub$op_sub$0$(moonbitlang$core$builtin$$Shl$op_shl$0$($1L, s), $1L);
   while (true) {
     if (read_index < self.digits_num) {
-      const out = moonbitlang$core$builtin$$Shr$op_shr$2$(acc, s);
+      const out = moonbitlang$core$builtin$$Shr$op_shr$0$(acc, s);
       const _tmp = self.digits;
       const _tmp$2 = write_index;
       $bound_check(_tmp, _tmp$2);
       _tmp[_tmp$2] = moonbitlang$core$uint64$$UInt64$to_byte(out);
       write_index = write_index + 1 | 0;
-      acc = moonbitlang$core$builtin$$BitAnd$land$2$(acc, mask);
+      acc = moonbitlang$core$builtin$$BitAnd$land$0$(acc, mask);
       const _tmp$3 = self.digits;
       const _tmp$4 = read_index;
       $bound_check(_tmp$3, _tmp$4);
       const d = _tmp$3[_tmp$4];
-      acc = moonbitlang$core$builtin$$Add$op_add$2$(moonbitlang$core$builtin$$Mul$op_mul$2$(acc, $10L), moonbitlang$core$byte$$Byte$to_int64(d));
+      acc = moonbitlang$core$builtin$$Add$op_add$0$(moonbitlang$core$builtin$$Mul$op_mul$0$(acc, $10L), moonbitlang$core$byte$$Byte$to_int64(d));
       read_index = read_index + 1 | 0;
       continue;
     } else {
@@ -3200,8 +3200,8 @@ function moonbitlang$core$strconv$$Decimal$right_shift(self, s) {
     }
   }
   while (true) {
-    if (moonbitlang$core$builtin$$op_gt$2$(acc, $0L)) {
-      const out = moonbitlang$core$builtin$$Shr$op_shr$2$(acc, s);
+    if (moonbitlang$core$builtin$$op_gt$0$(acc, $0L)) {
+      const out = moonbitlang$core$builtin$$Shr$op_shr$0$(acc, s);
       if (write_index < self.digits.length) {
         const _tmp = self.digits;
         const _tmp$2 = write_index;
@@ -3209,12 +3209,12 @@ function moonbitlang$core$strconv$$Decimal$right_shift(self, s) {
         _tmp[_tmp$2] = moonbitlang$core$uint64$$UInt64$to_byte(out);
         write_index = write_index + 1 | 0;
       } else {
-        if (moonbitlang$core$builtin$$op_gt$2$(out, $0L)) {
+        if (moonbitlang$core$builtin$$op_gt$0$(out, $0L)) {
           self.truncated = true;
         }
       }
-      acc = moonbitlang$core$builtin$$BitAnd$land$2$(acc, mask);
-      acc = moonbitlang$core$builtin$$Mul$op_mul$2$(acc, $10L);
+      acc = moonbitlang$core$builtin$$BitAnd$land$0$(acc, mask);
+      acc = moonbitlang$core$builtin$$Mul$op_mul$0$(acc, $10L);
       continue;
     } else {
       break;
@@ -3266,7 +3266,7 @@ function moonbitlang$core$strconv$$Decimal$to_double_priv(self) {
     return new Result$Ok$11$(moonbitlang$core$int64$$Int64$reinterpret_as_double(bits));
   }
   if (self.decimal_point > 310) {
-    const _bind = moonbitlang$core$strconv$$range_err$4$();
+    const _bind = moonbitlang$core$strconv$$range_err$2$();
     if (_bind.$tag === 1) {
       const _ok = _bind;
       _ok._0;
@@ -3280,7 +3280,7 @@ function moonbitlang$core$strconv$$Decimal$to_double_priv(self) {
       if (self.decimal_point >= moonbitlang$core$strconv$$powtab.length) {
         n = 60;
       } else {
-        n = moonbitlang$core$array$$Array$op_get$6$(moonbitlang$core$strconv$$powtab, self.decimal_point);
+        n = moonbitlang$core$array$$Array$op_get$4$(moonbitlang$core$strconv$$powtab, self.decimal_point);
       }
       moonbitlang$core$strconv$$Decimal$shift_priv(self, -n);
       exponent = exponent + n | 0;
@@ -3309,7 +3309,7 @@ function moonbitlang$core$strconv$$Decimal$to_double_priv(self) {
       if (-self.decimal_point >= moonbitlang$core$strconv$$powtab.length) {
         n = 60;
       } else {
-        n = moonbitlang$core$array$$Array$op_get$6$(moonbitlang$core$strconv$$powtab, -self.decimal_point);
+        n = moonbitlang$core$array$$Array$op_get$4$(moonbitlang$core$strconv$$powtab, -self.decimal_point);
       }
       moonbitlang$core$strconv$$Decimal$shift_priv(self, n);
       exponent = exponent - n | 0;
@@ -3325,7 +3325,7 @@ function moonbitlang$core$strconv$$Decimal$to_double_priv(self) {
     exponent = exponent + n | 0;
   }
   if ((exponent - moonbitlang$core$strconv$$double_info.bias | 0) >= ((1 << moonbitlang$core$strconv$$double_info.exponent_bits) - 1 | 0)) {
-    const _bind = moonbitlang$core$strconv$$range_err$4$();
+    const _bind = moonbitlang$core$strconv$$range_err$2$();
     if (_bind.$tag === 1) {
       const _ok = _bind;
       _ok._0;
@@ -3335,11 +3335,11 @@ function moonbitlang$core$strconv$$Decimal$to_double_priv(self) {
   }
   moonbitlang$core$strconv$$Decimal$shift_priv(self, moonbitlang$core$strconv$$double_info.mantissa_bits + 1 | 0);
   mantissa = moonbitlang$core$strconv$$Decimal$rounded_integer(self);
-  if (moonbitlang$core$builtin$$Eq$op_equal$8$(mantissa, moonbitlang$core$builtin$$Shl$op_shl$8$($2L, moonbitlang$core$strconv$$double_info.mantissa_bits))) {
-    mantissa = moonbitlang$core$builtin$$Shl$op_shl$8$(mantissa, 1);
+  if (moonbitlang$core$builtin$$Eq$op_equal$6$(mantissa, moonbitlang$core$builtin$$Shl$op_shl$6$($2L, moonbitlang$core$strconv$$double_info.mantissa_bits))) {
+    mantissa = moonbitlang$core$builtin$$Shl$op_shl$6$(mantissa, 1);
     exponent = exponent + 1 | 0;
     if ((exponent - moonbitlang$core$strconv$$double_info.bias | 0) >= ((1 << moonbitlang$core$strconv$$double_info.exponent_bits) - 1 | 0)) {
-      const _bind = moonbitlang$core$strconv$$range_err$4$();
+      const _bind = moonbitlang$core$strconv$$range_err$2$();
       if (_bind.$tag === 1) {
         const _ok = _bind;
         _ok._0;
@@ -3348,47 +3348,47 @@ function moonbitlang$core$strconv$$Decimal$to_double_priv(self) {
       }
     }
   }
-  if (moonbitlang$core$builtin$$Eq$op_equal$8$(moonbitlang$core$builtin$$BitAnd$land$8$(mantissa, moonbitlang$core$builtin$$Shl$op_shl$8$($1L, moonbitlang$core$strconv$$double_info.mantissa_bits)), $0L)) {
+  if (moonbitlang$core$builtin$$Eq$op_equal$6$(moonbitlang$core$builtin$$BitAnd$land$6$(mantissa, moonbitlang$core$builtin$$Shl$op_shl$6$($1L, moonbitlang$core$strconv$$double_info.mantissa_bits)), $0L)) {
     exponent = moonbitlang$core$strconv$$double_info.bias;
   }
   const bits = moonbitlang$core$strconv$$assemble_bits(mantissa, exponent, self.negative);
   return new Result$Ok$11$(moonbitlang$core$int64$$Int64$reinterpret_as_double(bits));
 }
 function moonbitlang$core$strconv$$checked_mul(a, b) {
-  if (moonbitlang$core$builtin$$Eq$op_equal$2$(a, $0L) || moonbitlang$core$builtin$$Eq$op_equal$2$(b, $0L)) {
+  if (moonbitlang$core$builtin$$Eq$op_equal$0$(a, $0L) || moonbitlang$core$builtin$$Eq$op_equal$0$(b, $0L)) {
     return $0L;
   }
-  if (moonbitlang$core$builtin$$Eq$op_equal$2$(a, $1L)) {
+  if (moonbitlang$core$builtin$$Eq$op_equal$0$(a, $1L)) {
     return b;
   }
-  if (moonbitlang$core$builtin$$Eq$op_equal$2$(b, $1L)) {
+  if (moonbitlang$core$builtin$$Eq$op_equal$0$(b, $1L)) {
     return a;
   }
-  if (moonbitlang$core$builtin$$op_lt$2$(b, $0L) || moonbitlang$core$builtin$$op_lt$2$(a, $0L)) {
+  if (moonbitlang$core$builtin$$op_lt$0$(b, $0L) || moonbitlang$core$builtin$$op_lt$0$(a, $0L)) {
     return undefined;
   }
-  const r = moonbitlang$core$builtin$$Div$op_div$2$(moonbitlang$core$uint64$$max_value, b);
-  const q = moonbitlang$core$builtin$$Div$op_div$2$($1L, b);
-  if (moonbitlang$core$builtin$$op_lt$2$(moonbitlang$core$builtin$$Add$op_add$2$(moonbitlang$core$builtin$$Add$op_add$2$(r, r), q), a)) {
+  const r = moonbitlang$core$builtin$$Div$op_div$0$(moonbitlang$core$uint64$$max_value, b);
+  const q = moonbitlang$core$builtin$$Div$op_div$0$($1L, b);
+  if (moonbitlang$core$builtin$$op_lt$0$(moonbitlang$core$builtin$$Add$op_add$0$(moonbitlang$core$builtin$$Add$op_add$0$(r, r), q), a)) {
     return undefined;
   }
-  return moonbitlang$core$builtin$$Mul$op_mul$2$(a, b);
+  return moonbitlang$core$builtin$$Mul$op_mul$0$(a, b);
 }
 function moonbitlang$core$strconv$$pow10_fast_path(exponent) {
-  return moonbitlang$core$array$$Array$op_get$11$(moonbitlang$core$strconv$$table, exponent & 31);
+  return moonbitlang$core$array$$Array$op_get$9$(moonbitlang$core$strconv$$table, exponent & 31);
 }
 function moonbitlang$core$strconv$$Number$is_fast_path(self) {
-  return moonbitlang$core$builtin$$op_le$8$(moonbitlang$core$strconv$$min_exponent_fast_path, self.exponent) && (moonbitlang$core$builtin$$op_le$8$(self.exponent, moonbitlang$core$strconv$$max_exponent_disguised_fast_path) && (moonbitlang$core$builtin$$op_le$2$(self.mantissa, moonbitlang$core$strconv$$max_mantissa_fast_path) && !self.many_digits));
+  return moonbitlang$core$builtin$$op_le$6$(moonbitlang$core$strconv$$min_exponent_fast_path, self.exponent) && (moonbitlang$core$builtin$$op_le$6$(self.exponent, moonbitlang$core$strconv$$max_exponent_disguised_fast_path) && (moonbitlang$core$builtin$$op_le$0$(self.mantissa, moonbitlang$core$strconv$$max_mantissa_fast_path) && !self.many_digits));
 }
 function moonbitlang$core$strconv$$Number$try_fast_path(self) {
   if (moonbitlang$core$strconv$$Number$is_fast_path(self)) {
     let value;
-    if (moonbitlang$core$builtin$$op_le$8$(self.exponent, moonbitlang$core$strconv$$max_exponent_fast_path)) {
+    if (moonbitlang$core$builtin$$op_le$6$(self.exponent, moonbitlang$core$strconv$$max_exponent_fast_path)) {
       const value$2 = moonbitlang$core$double$$Double$convert_uint64(self.mantissa);
-      value = moonbitlang$core$builtin$$op_lt$8$(self.exponent, $0L) ? value$2 / moonbitlang$core$strconv$$pow10_fast_path(-moonbitlang$core$int64$$Int64$to_int(self.exponent)) : value$2 * moonbitlang$core$strconv$$pow10_fast_path(moonbitlang$core$int64$$Int64$to_int(self.exponent));
+      value = moonbitlang$core$builtin$$op_lt$6$(self.exponent, $0L) ? value$2 / moonbitlang$core$strconv$$pow10_fast_path(-moonbitlang$core$int64$$Int64$to_int(self.exponent)) : value$2 * moonbitlang$core$strconv$$pow10_fast_path(moonbitlang$core$int64$$Int64$to_int(self.exponent));
     } else {
-      const shift = moonbitlang$core$builtin$$Sub$op_sub$8$(self.exponent, moonbitlang$core$strconv$$max_exponent_fast_path);
-      const _bind = moonbitlang$core$strconv$$checked_mul(self.mantissa, moonbitlang$core$array$$Array$op_get$2$(moonbitlang$core$strconv$$int_pow10, moonbitlang$core$int64$$Int64$to_int(shift)));
+      const shift = moonbitlang$core$builtin$$Sub$op_sub$6$(self.exponent, moonbitlang$core$strconv$$max_exponent_fast_path);
+      const _bind = moonbitlang$core$strconv$$checked_mul(self.mantissa, moonbitlang$core$array$$Array$op_get$0$(moonbitlang$core$strconv$$int_pow10, moonbitlang$core$int64$$Int64$to_int(shift)));
       let mantissa;
       if (_bind === undefined) {
         return Option$None$12$;
@@ -3397,7 +3397,7 @@ function moonbitlang$core$strconv$$Number$try_fast_path(self) {
         const _m = _Some;
         mantissa = _m;
       }
-      if (moonbitlang$core$builtin$$op_gt$2$(mantissa, moonbitlang$core$strconv$$max_mantissa_fast_path)) {
+      if (moonbitlang$core$builtin$$op_gt$0$(mantissa, moonbitlang$core$strconv$$max_mantissa_fast_path)) {
         return Option$None$12$;
       }
       value = moonbitlang$core$double$$Double$convert_uint64(mantissa) * moonbitlang$core$strconv$$pow10_fast_path(moonbitlang$core$int64$$Int64$to_int(moonbitlang$core$strconv$$max_exponent_fast_path));
@@ -3412,7 +3412,7 @@ function moonbitlang$core$strconv$$Number$try_fast_path(self) {
 }
 function moonbitlang$core$strconv$$parse_double(str) {
   if (str.length === 0) {
-    const _bind = moonbitlang$core$strconv$$syntax_err$4$();
+    const _bind = moonbitlang$core$strconv$$syntax_err$2$();
     if (_bind.$tag === 1) {
       const _ok = _bind;
       _ok._0;
@@ -3421,7 +3421,7 @@ function moonbitlang$core$strconv$$parse_double(str) {
     }
   }
   if (!moonbitlang$core$strconv$$check_underscore(str)) {
-    const _bind = moonbitlang$core$strconv$$syntax_err$4$();
+    const _bind = moonbitlang$core$strconv$$syntax_err$2$();
     if (_bind.$tag === 1) {
       const _ok = _bind;
       _ok._0;
@@ -3434,7 +3434,7 @@ function moonbitlang$core$strconv$$parse_double(str) {
   if (_bind === undefined) {
     const _bind$3 = moonbitlang$core$strconv$$parse_inf_nan(str);
     if (_bind$3 === undefined) {
-      const _bind$4 = moonbitlang$core$strconv$$syntax_err$24$();
+      const _bind$4 = moonbitlang$core$strconv$$syntax_err$19$();
       if (_bind$4.$tag === 1) {
         const _ok = _bind$4;
         _bind$2 = _ok._0;
@@ -3447,7 +3447,7 @@ function moonbitlang$core$strconv$$parse_double(str) {
       const _num = _x._0;
       const _consumed = _x._1;
       if (str.length !== _consumed) {
-        const _bind$4 = moonbitlang$core$strconv$$syntax_err$24$();
+        const _bind$4 = moonbitlang$core$strconv$$syntax_err$19$();
         if (_bind$4.$tag === 1) {
           const _ok = _bind$4;
           _bind$2 = _ok._0;
@@ -3466,7 +3466,7 @@ function moonbitlang$core$strconv$$parse_double(str) {
   const _num = _bind$2._0;
   const _consumed = _bind$2._1;
   if (str.length !== _consumed) {
-    const _bind$3 = moonbitlang$core$strconv$$syntax_err$4$();
+    const _bind$3 = moonbitlang$core$strconv$$syntax_err$2$();
     if (_bind$3.$tag === 1) {
       const _ok = _bind$3;
       _ok._0;
@@ -3492,7 +3492,7 @@ function moonbitlang$core$strconv$$parse_double(str) {
   }
 }
 function moonbitlang$core$string$$String$view(self, start_offset, end_offset) {
-  return start_offset >= 0 && (start_offset <= end_offset && end_offset <= self.length) ? { str: self, start: start_offset, end: end_offset } : moonbitlang$core$builtin$$abort$5$("Invalid index for View");
+  return start_offset >= 0 && (start_offset <= end_offset && end_offset <= self.length) ? { str: self, start: start_offset, end: end_offset } : moonbitlang$core$builtin$$abort$3$("Invalid index for View");
 }
 function moonbitlang$core$string$$String$view$46$start_offset$46$default() {
   return 0;
@@ -3547,7 +3547,7 @@ function moonbitlang$core$string$$String$offset_of_nth_char_forward(self, n, sta
     }
     return char_count < n || utf16_offset >= end_offset ? undefined : utf16_offset;
   } else {
-    return moonbitlang$core$builtin$$abort$3$("Invalid start index");
+    return moonbitlang$core$builtin$$abort$1$("Invalid start index");
   }
 }
 function moonbitlang$core$string$$String$offset_of_nth_char(self, i, start_offset, end_offset) {
@@ -3571,7 +3571,7 @@ function moonbitlang$core$string$$String$char_length_eq(self, len, start_offset,
           _tmp$2 = _tmp$5;
           continue;
         } else {
-          moonbitlang$core$builtin$$abort$4$("invalid surrogate pair");
+          moonbitlang$core$builtin$$abort$2$("invalid surrogate pair");
         }
       }
       const _tmp$3 = index + 1 | 0;
@@ -3602,7 +3602,7 @@ function moonbitlang$core$string$$String$char_length_ge(self, len, start_offset,
           _tmp$2 = _tmp$5;
           continue;
         } else {
-          moonbitlang$core$builtin$$abort$4$("invalid surrogate pair");
+          moonbitlang$core$builtin$$abort$2$("invalid surrogate pair");
         }
       }
       const _tmp$3 = index + 1 | 0;
@@ -3615,23 +3615,23 @@ function moonbitlang$core$string$$String$char_length_ge(self, len, start_offset,
     }
   }
 }
-function moonbitlang$core$builtin$$Default$default$13$() {
+function moonbitlang$core$builtin$$Default$default$11$() {
   return "";
 }
-function moonbitlang$core$builtin$$Default$default$26$() {
-  return { bindTo: moonbitlang$core$builtin$$Default$default$22$(), speed: 0, string: moonbitlang$core$builtin$$Default$default$13$(), bool: false };
+function moonbitlang$core$builtin$$Default$default$20$() {
+  return { bindTo: moonbitlang$core$builtin$$Default$default$17$(), speed: 0, string: moonbitlang$core$builtin$$Default$default$11$(), bool: false };
 }
 function username$hello$rotate$$Rotate$start(self) {
-  moonbitlang$core$builtin$$println$13$("start");
+  moonbitlang$core$builtin$$println$11$("start");
 }
 function username$hello$rotate$$Rotate$update(self) {
-  moonbitlang$core$builtin$$println$13$(`current speed is ${moonbitlang$core$builtin$$Show$to_string$6$(self.speed)}`);
+  moonbitlang$core$builtin$$println$11$(`current speed is ${moonbitlang$core$builtin$$Show$to_string$4$(self.speed)}`);
 }
 function username$hello$rotate$$Rotate$ondestroy(self) {
-  moonbitlang$core$builtin$$println$13$("onDestroy...");
+  moonbitlang$core$builtin$$println$11$("onDestroy...");
 }
 function username$hello$rotate$$new() {
-  return moonbitlang$core$builtin$$Default$default$26$();
+  return moonbitlang$core$builtin$$Default$default$20$();
 }
 function username$hello$rotate$$bind(bindTo) {
   const self = username$hello$rotate$$new();
@@ -3642,7 +3642,7 @@ function username$hello$rotate$$bind(bindTo) {
     if (_json.$tag === 6) {
       const _Object = _json;
       const _map = _Object._0;
-      const _bind = moonbitlang$core$builtin$$Map$op_get$19$(_map, "speed");
+      const _bind = moonbitlang$core$builtin$$Map$op_get$15$(_map, "speed");
       if (_bind === undefined) {
       } else {
         const _Some = _bind;
@@ -3653,7 +3653,7 @@ function username$hello$rotate$$bind(bindTo) {
           self.speed = moonbitlang$core$double$$Double$to_int(_speed);
         }
       }
-      const _bind$2 = moonbitlang$core$builtin$$Map$op_get$19$(_map, "string");
+      const _bind$2 = moonbitlang$core$builtin$$Map$op_get$15$(_map, "string");
       if (_bind$2 === undefined) {
       } else {
         const _Some = _bind$2;
@@ -3664,7 +3664,7 @@ function username$hello$rotate$$bind(bindTo) {
           self.string = _string;
         }
       }
-      const _bind$3 = moonbitlang$core$builtin$$Map$op_get$19$(_map, "bool");
+      const _bind$3 = moonbitlang$core$builtin$$Map$op_get$15$(_map, "bool");
       if (_bind$3 === undefined) {
       } else {
         const _Some = _bind$3;

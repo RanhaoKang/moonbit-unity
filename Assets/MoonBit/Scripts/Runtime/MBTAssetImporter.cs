@@ -1,19 +1,17 @@
 using UnityEditor.AssetImporters;
 using UnityEngine;
+using System.IO;
 
 namespace MoonBit
 {
-[ScriptedImporter(1, "mbt")]
-public class MBTAssetImporter : ScriptedImporter
-{
-    public override void OnImportAsset(AssetImportContext ctx)
+    [ScriptedImporter(1, "mbt")]
+    public class MBTAssetImporter : ScriptedImporter
     {
-        // 在这里处理文件导入逻辑
-        var mainObject = new GameObject("MBTObject");
-        // 可以创建和添加其他资产
-        
-        ctx.AddObjectToAsset("main obj", mainObject);
-        ctx.SetMainObject(mainObject);
+        public override void OnImportAsset(AssetImportContext ctx)
+        {
+            TextAsset subAsset = new TextAsset(File.ReadAllText(ctx.assetPath));
+            ctx.AddObjectToAsset("text", subAsset);
+            ctx.SetMainObject(subAsset);
+        }
     }
-}
 }

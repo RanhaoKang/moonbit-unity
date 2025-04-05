@@ -61,9 +61,9 @@ namespace MoonBit
         /// </summary>
         /// <param name="gameObj">要处理的GameObject</param>
         /// <returns>处理后的模块名称</returns>
-        public static string GetModuleName(GameObject prefab)
+        public static string GetModuleName(TextAsset asset)
         {
-            if (prefab == null)
+            if (asset == null)
             {
                 Debug.LogWarning("传入的GameObject为null");
                 return string.Empty;
@@ -72,7 +72,7 @@ namespace MoonBit
 
 #if UNITY_EDITOR
         // 获取Prefab的资源路径
-        string assetPath = AssetDatabase.GetAssetPath(prefab);
+        string assetPath = AssetDatabase.GetAssetPath(asset);
         
         if (string.IsNullOrEmpty(assetPath))
         {
