@@ -4,9 +4,9 @@ typealias MoonBehaviour = @bind.MoonBehaviour
 ///|
 pub struct Rotate {
   mut bindTo : MoonBehaviour?
-  speed : Int
-  string : String
-  bool : Bool
+  mut speed : Int
+  mut string : String
+  mut bool : Bool
 } derive(Default)
 
 ///|
@@ -30,37 +30,23 @@ fn new() -> Rotate {
 }
 
 ///|
-impl @json.FromJson for Rotate with from_json(json, path) {
-  guard json is Object(obj) else {
-    raise @json.JsonDecodeError(
-      (path, "Rotate.from_json: expected object"),
-    )
-  }
-  let mut speed : Int = 0
-  let mut string : String = ""
-  let mut bool : Bool = false
-  match json.value("speed") {
-    None => ()
-    Some(x) => speed = Double::to_int(x.as_number().unwrap())
-  }
-  match json.value("string") {
-    None => ()
-    Some(x) => string = x.as_string().unwrap()
-  }
-  match json.value("bool") {
-    None => ()
-    Some(x) => bool = x.as_bool().unwrap()
-  }
-  Rotate::{speed, string, bool, bindTo: None}
-}
-
-///|
 pub fn bind(bindTo : MoonBehaviour) -> Unit {
-  // let json = @json.parse?(bindTo.get_serialized_json())
-  // guard json is Ok(json) else { return }
-  // let self : Result[Rotate, @json.JsonDecodeError] = @json.from_json?(json)
-  // guard self is Ok(self) else { return }
   let self = new()
+  let json = @json.parse?(bindTo.get_serialized_json())
+  if json is Ok(json) && json is Object(map) {
+    if map["speed"] is Some(Number(speed)) {
+      self.speed = Double::to_int(speed)
+    }
+    if map["string"] is Some(String(string)) {
+      self.string = string
+    }
+    match map["bool"] {
+      Some(True) => self.bool = true
+      Some(False) => self.bool = false
+      Some(_) => ()
+      None => ()
+    }
+  }
   self.bindTo = Some(bindTo)
   bindTo.set_start(fn() { self.start() })
   bindTo.set_update(fn() { self.update() })

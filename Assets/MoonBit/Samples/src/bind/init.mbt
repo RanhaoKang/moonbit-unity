@@ -9,10 +9,11 @@ pub extern "js" fn set_ondestroy(self : MoonBehaviour, f : () -> Unit) -> Unit =
 pub extern "js" fn get_serialized_json(self : MoonBehaviour) -> String =
   #|(self) => {
   #|  let dict = {};
-  #|  for (let i = 0; i < self.Pairs.Length; i++) {
-  #|    const p = self.Pairs.get_Item(i);
+  #|  const propsComponent = self.GetComponent(puerts.$typeof(CS.MoonBit.MoonProperties));
+  #|  for (let i = 0; i < propsComponent.Pairs.Length; i++) {
+  #|    const p = propsComponent.Pairs.get_Item(i);
   #|    dict[p.key] = p.value;
   #|  }
   #|
-  #|  JSON.stringify(dict);
+  #|  return JSON.stringify(dict);
   #|}
