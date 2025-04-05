@@ -55,3 +55,6 @@ pub fn bind(bindTo : MoonBehaviour) -> Unit {
 ```
 
 # Features
+![](Docs/sample.png)
+
+- Bind `.mbt` asset and variables in via spector
